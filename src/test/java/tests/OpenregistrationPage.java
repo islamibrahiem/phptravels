@@ -8,7 +8,7 @@ public class OpenregistrationPage extends TestBase {
 
 	HomePage homepageObject ;
 	
-	
+	int x ;
 
 	@Test
 	public void openpage ()
