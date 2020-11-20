@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [phptravels Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.RegisterationPageTest">
+        <methods>
+          <include name="test_inputTheRegisterationData"/>
+          <include name="openURL"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.RegisterationPageTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [phptravels Suite] -->
