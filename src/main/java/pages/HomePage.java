@@ -17,7 +17,7 @@ public class HomePage extends PageBase	{
 	
 	public void openRegisterPage()
 	{
-		registerBtn.click();
+		clickButton(registerBtn);
 	}
 
 }
