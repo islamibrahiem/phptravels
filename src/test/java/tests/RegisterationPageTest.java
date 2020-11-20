@@ -9,6 +9,7 @@ public class RegisterationPageTest extends TestBase {
 	String test_firstNameTxt = "ibrahiem";
 	String test_lastNameTxt = "Ali";
 	String test_emailTxt = "ibrahiem@test.com";
+	String test_phoneNumberTxt = "123456";
 	String test_companyNameTxt = "IBM";
 	String test_address1Txt = "opera street";
 	String test_address2Txt = "metro street";
@@ -29,6 +30,7 @@ public class RegisterationPageTest extends TestBase {
 				test_firstNameTxt,
 				test_lastNameTxt,
 				test_emailTxt,
+				test_phoneNumberTxt,
 				test_companyNameTxt,
 				test_address1Txt,
 				test_address2Txt,

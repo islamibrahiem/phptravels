@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-20T19:31:41 EET" name="phptravels Suite" finished-at="2020-11-20T19:33:43 EET" duration-ms="121741">
+  <suite started-at="2020-11-20T21:02:36 EET" name="phptravels Suite" finished-at="2020-11-20T21:06:39 EET" duration-ms="242876">
     <groups>
     </groups>
-    <test started-at="2020-11-20T19:31:41 EET" name="Regression Test" finished-at="2020-11-20T19:33:43 EET" duration-ms="121741">
+    <test started-at="2020-11-20T21:02:36 EET" name="Regression Test" finished-at="2020-11-20T21:06:39 EET" duration-ms="242876">
       <class name="tests.OpenregistrationPage">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T19:31:27 EET" name="openURL" finished-at="2020-11-20T19:31:41 EET" duration-ms="13920" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T21:02:24 EET" name="openURL" finished-at="2020-11-20T21:02:36 EET" duration-ms="12568" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,37 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="openpage()[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T19:31:41 EET" name="openpage" finished-at="2020-11-20T19:31:42 EET" duration-ms="1294" status="PASS">
+        <test-method signature="openpage()[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T21:02:36 EET" name="openpage" finished-at="2020-11-20T21:02:38 EET" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openpage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T19:33:43 EET" name="closeBrowser" finished-at="2020-11-20T19:33:43 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.OpenregistrationPage@484970b0]" started-at="2020-11-20T21:06:39 EET" name="closeBrowser" finished-at="2020-11-20T21:06:39 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.OpenregistrationPage -->
       <class name="tests.RegisterationPageTest">
-        <test-method signature="test_inputTheRegisterationData()[pri:0, instance:tests.RegisterationPageTest@4470f8a6]" started-at="2020-11-20T19:31:42 EET" name="test_inputTheRegisterationData" finished-at="2020-11-20T19:33:43 EET" duration-ms="120418" status="FAIL">
+        <test-method signature="test_inputTheRegisterationData()[pri:0, instance:tests.RegisterationPageTest@4470f8a6]" started-at="2020-11-20T21:02:38 EET" name="test_inputTheRegisterationData" finished-at="2020-11-20T21:06:39 EET" duration-ms="241114" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: #recaptcha\-anchor\-label
+              <![CDATA[Unable to locate element: *[name='mobileNumber']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'islam-Inspiron-5570', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-54-generic', java.version: '11.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 26136, moz:profile: /tmp/rust_mozprofileE39K3S, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
-*** Element info: {Using=id, value=recaptcha-anchor-label}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 34211, moz:profile: /tmp/rust_mozprofilelmSf5X, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d493b62-b56a-4d68-9838-e318c47307a9
+*** Element info: {Using=name, value=mobileNumber}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #recaptcha\-anchor\-label
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='mobileNumber']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'islam-Inspiron-5570', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-54-generic', java.version: '11.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 26136, moz:profile: /tmp/rust_mozprofileE39K3S, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
-*** Element info: {Using=id, value=recaptcha-anchor-label}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 34211, moz:profile: /tmp/rust_mozprofilelmSf5X, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d493b62-b56a-4d68-9838-e318c47307a9
+*** Element info: {Using=name, value=mobileNumber}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -60,15 +60,16 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at pages.PageBase.clickButton(PageBase.java:19)
-at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:69)
-at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:28)
+at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+at pages.PageBase.setTextElementText(PageBase.java:23)
+at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:80)
+at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

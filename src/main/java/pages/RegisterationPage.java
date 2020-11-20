@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class RegisterationPage extends PageBase {
 
@@ -17,6 +18,8 @@ public class RegisterationPage extends PageBase {
 	WebElement lastName;
 	@FindBy(id="inputEmail")
 	WebElement email;
+	@FindBy(id="inputPhone")
+	WebElement phoneNumber;
 	@FindBy(id="inputCompanyName")
 	WebElement companyName;
 	@FindBy(id="inputAddress1")
@@ -29,14 +32,19 @@ public class RegisterationPage extends PageBase {
 	WebElement state;
 	@FindBy(id="inputPostcode")
 	WebElement postcode;
+	@FindBy(id="customfield1")
+	WebElement How_did_you_find_us;
+	@FindBy(id="inputCountry")
+	WebElement countryList;
 	@FindBy(id="customfield2")
 	WebElement mobileNumber;
 	@FindBy(id="inputNewPassword1")
 	WebElement password;
 	@FindBy(id="inputNewPassword2")
-	WebElement confirmPassword;
-	@FindBy(id="recaptcha-anchor-label")
-	WebElement recaptcha_checkbox;
+	WebElement confirmPassword;	
+	Select selectOptions;
+
+
 
 
 
@@ -44,6 +52,7 @@ public class RegisterationPage extends PageBase {
 			String firstNameTxt,
 			String lastNameTxt,
 			String emailTxt,
+			String phoneNumberTxt,
 			String companyNameTxt,
 			String addressName1Txt,
 			String addressName2Txt,
@@ -63,10 +72,18 @@ public class RegisterationPage extends PageBase {
 		setTextElementText(city, cityTxt);
 		setTextElementText(state, stateTxt);
 		setTextElementText(postcode, postcodeTxt);
+		selectOptions = new Select(countryList);
+		selectOptions.selectByVisibleText("Egypt");
+		selectOptions = new Select(How_did_you_find_us);
+		selectOptions.selectByVisibleText("Google");
+		setTextElementText(phoneNumber, phoneNumberTxt);
 		setTextElementText(mobileNumber, mobileNumberTxt);
 		setTextElementText(password, passwordTxt);
 		setTextElementText(confirmPassword, confirmPasswordTxt);
-		clickButton(recaptcha_checkbox);
+		
+
+		
+		
 	}
 
 }

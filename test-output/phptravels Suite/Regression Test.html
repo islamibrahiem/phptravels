@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 20 19:31:41 EET 2020</td>
+<td>Started on:</td><td>Fri Nov 20 21:02:36 EET 2020</td>
 </tr>
-<tr><td>Total time:</td><td>121 seconds (121741 ms)</td>
+<tr><td>Total time:</td><td>242 seconds (242876 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.RegisterationPageTest.test_inputTheRegisterationData()'><b>test_inputTheRegisterationData</b><br>Test class: tests.RegisterationPageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #recaptcha\-anchor\-label
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;mobileNumber&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;islam-Inspiron-5570&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-54-generic&apos;, java.version: &apos;11.0.7&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 26136, moz:profile: /tmp/rust_mozprofileE39K3S, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
-*** Element info: {Using=id, value=recaptcha-anchor-label}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 34211, moz:profile: /tmp/rust_mozprofilelmSf5X, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d493b62-b56a-4d68-9838-e318c47307a9
+*** Element info: {Using=name, value=mobileNumber}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -91,25 +91,26 @@ Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at pages.PageBase.clickButton(PageBase.java:19)
-	at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:69)
-	at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:28)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at pages.PageBase.setTextElementText(PageBase.java:23)
+	at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:80)
+	at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace508760925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace508760925'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #recaptcha\-anchor\-label
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace115397800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace115397800'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;mobileNumber&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;islam-Inspiron-5570&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-54-generic&apos;, java.version: &apos;11.0.7&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 26136, moz:profile: /tmp/rust_mozprofileE39K3S, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
-*** Element info: {Using=id, value=recaptcha-anchor-label}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 34211, moz:profile: /tmp/rust_mozprofilelmSf5X, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-54-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d493b62-b56a-4d68-9838-e318c47307a9
+*** Element info: {Using=name, value=mobileNumber}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,15 +122,16 @@ Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at pages.PageBase.clickButton(PageBase.java:19)
-	at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:69)
-	at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:28)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at pages.PageBase.setTextElementText(PageBase.java:23)
+	at pages.RegisterationPage.inputTheRegisterationData(RegisterationPage.java:80)
+	at tests.RegisterationPageTest.test_inputTheRegisterationData(RegisterationPageTest.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,7 +161,7 @@ Session ID: b5e9c490-561a-453a-ac25-d1ff068fbf41
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>120</td>
+<td>241</td>
 <td>tests.RegisterationPageTest@4470f8a6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
