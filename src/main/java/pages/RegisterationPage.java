@@ -42,7 +42,6 @@ public class RegisterationPage extends PageBase {
 	WebElement password;
 	@FindBy(id="inputNewPassword2")
 	WebElement confirmPassword;	
-	Select selectOptions;
 
 
 
@@ -80,10 +79,10 @@ public class RegisterationPage extends PageBase {
 		setTextElementText(mobileNumber, mobileNumberTxt);
 		setTextElementText(password, passwordTxt);
 		setTextElementText(confirmPassword, confirmPasswordTxt);
-		
 
-		
-		
+
+
+
 	}
 
 }

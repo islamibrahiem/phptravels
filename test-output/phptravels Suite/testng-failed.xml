@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [phptravels Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Regression Test(failed)">
     <classes>
-      <class name="tests.RegisterationPageTest">
+      <class name="tests.BlogRegisterationPageTest">
         <methods>
-          <include name="test_inputTheRegisterationData"/>
           <include name="openURL"/>
           <include name="closeBrowser"/>
+          <include name="test_openBlogRegistrationPage"/>
         </methods>
-      </class> <!-- tests.RegisterationPageTest -->
+      </class> <!-- tests.BlogRegisterationPageTest -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [phptravels Suite] -->

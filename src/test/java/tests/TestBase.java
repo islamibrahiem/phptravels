@@ -53,7 +53,7 @@ public class TestBase {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		driver.get("https://phptravels.org/clientarea.php");
+		driver.get("https://phptravels.com/demo/");
 
 	}
 

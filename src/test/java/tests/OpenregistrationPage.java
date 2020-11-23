@@ -11,8 +11,8 @@ public class OpenregistrationPage extends TestBase {
 	@Test
 	public void openpage ()
 	{
-		homepageObject = new HomePage(driver);
-		homepageObject.openRegisterPage();
+//		homepageObject = new HomePage(driver);
+//		homepageObject.openRegisterPage();
 	}
 
 }
