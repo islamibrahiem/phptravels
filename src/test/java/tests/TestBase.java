@@ -33,7 +33,7 @@ public class TestBase {
 		}
 		else if (browserName.equalsIgnoreCase("chrome"))
 		{
-			
+
 			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
@@ -46,13 +46,6 @@ public class TestBase {
 			options.addArguments("--window-size=1920,1080");
 			driver = new ChromeDriver(options);
 		}
-	
-
-		// 
-		// driver = new FirefoxDriver();
-
-		// 
-		// driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
