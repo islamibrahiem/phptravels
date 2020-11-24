@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-23T07:41:26 EET" name="phptravels Suite" finished-at="2020-11-23T07:41:29 EET" duration-ms="3047">
+  <suite started-at="2020-11-24T11:01:28 EET" name="phptravels Suite" finished-at="2020-11-24T11:01:33 EET" duration-ms="5100">
     <groups>
     </groups>
-    <test started-at="2020-11-23T07:41:26 EET" name="Regression Test" finished-at="2020-11-23T07:41:29 EET" duration-ms="3047">
+    <test started-at="2020-11-24T11:01:28 EET" name="Regression Test" finished-at="2020-11-24T11:01:33 EET" duration-ms="5100">
       <class name="tests.BlogRegisterationPageTest">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.BlogRegisterationPageTest@3e96bacf]" started-at="2020-11-23T07:41:17 EET" name="openURL" finished-at="2020-11-23T07:41:26 EET" duration-ms="8723" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.BlogRegisterationPageTest@574b560f]" started-at="2020-11-24T11:01:19 EET" name="openURL" finished-at="2020-11-24T11:01:28 EET" duration-ms="8587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_openBlogPage()[pri:1, instance:tests.BlogRegisterationPageTest@3e96bacf]" started-at="2020-11-23T07:41:26 EET" name="test_openBlogPage" finished-at="2020-11-23T07:41:28 EET" duration-ms="1835" status="PASS">
+        <test-method signature="test_openBlogPage()[pri:1, instance:tests.BlogRegisterationPageTest@574b560f]" started-at="2020-11-24T11:01:28 EET" name="test_openBlogPage" finished-at="2020-11-24T11:01:31 EET" duration-ms="3478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_openBlogPage -->
-        <test-method signature="test_openBlogRegistrationPage()[pri:2, instance:tests.BlogRegisterationPageTest@3e96bacf]" started-at="2020-11-23T07:41:28 EET" name="test_openBlogRegistrationPage" finished-at="2020-11-23T07:41:29 EET" duration-ms="1193" status="PASS">
+        <test-method signature="test_openBlogRegistrationPage()[pri:2, instance:tests.BlogRegisterationPageTest@574b560f]" started-at="2020-11-24T11:01:31 EET" name="test_openBlogRegistrationPage" finished-at="2020-11-24T11:01:33 EET" duration-ms="1556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_openBlogRegistrationPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.BlogRegisterationPageTest@3e96bacf]" started-at="2020-11-23T07:41:29 EET" name="closeBrowser" finished-at="2020-11-23T07:41:29 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.BlogRegisterationPageTest@574b560f]" started-at="2020-11-24T11:01:33 EET" name="closeBrowser" finished-at="2020-11-24T11:01:33 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
