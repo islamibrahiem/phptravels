@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-24T21:08:29 EET" name="phptravels Suite" finished-at="2020-11-24T21:08:35 EET" duration-ms="6259">
+  <suite started-at="2020-11-25T06:34:34 EET" name="phptravels Suite" finished-at="2020-11-25T06:34:36 EET" duration-ms="1434">
     <groups>
     </groups>
-    <test started-at="2020-11-24T21:08:29 EET" name="Regression Test" finished-at="2020-11-24T21:08:35 EET" duration-ms="6259">
+    <test started-at="2020-11-25T06:34:34 EET" name="Regression Test" finished-at="2020-11-25T06:34:36 EET" duration-ms="1434">
       <class name="tests.BlogRegisterationPageTest">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-24T21:08:15 EET" name="openURL" finished-at="2020-11-24T21:08:29 EET" duration-ms="14498" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-25T06:34:31 EET" name="openURL" finished-at="2020-11-25T06:34:34 EET" duration-ms="3655" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_openBlogPage()[pri:1, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-24T21:08:29 EET" name="test_openBlogPage" finished-at="2020-11-24T21:08:34 EET" duration-ms="5120" status="PASS">
+        <test-method signature="test_openBlogPage()[pri:1, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-25T06:34:34 EET" name="test_openBlogPage" finished-at="2020-11-25T06:34:35 EET" duration-ms="1043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_openBlogPage -->
-        <test-method signature="test_openBlogRegistrationPage()[pri:2, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-24T21:08:34 EET" name="test_openBlogRegistrationPage" finished-at="2020-11-24T21:08:35 EET" duration-ms="1106" status="PASS">
+        <test-method signature="test_openBlogRegistrationPage()[pri:2, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-25T06:34:35 EET" name="test_openBlogRegistrationPage" finished-at="2020-11-25T06:34:36 EET" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_openBlogRegistrationPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-24T21:08:35 EET" name="closeBrowser" finished-at="2020-11-24T21:08:35 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.BlogRegisterationPageTest@fdefd3f]" started-at="2020-11-25T06:34:36 EET" name="closeBrowser" finished-at="2020-11-25T06:34:36 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
