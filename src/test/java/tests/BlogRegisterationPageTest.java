@@ -6,10 +6,13 @@ import pages.BlogPage;
 
 public class BlogRegisterationPageTest extends TestBase{
 
-	//HomePage homePageObject;
 	BlogPage blogPageObject;
+	String test_userNameTxt = "ahmed";
+	String test_emailTxt = "ahmed@test.com";
+	String test_password = "ahmedalitest";
+	String test_confirmPassword = "ahmedalitest";
 
-	@Test(priority = 1)
+			@Test(priority = 1)
 	public void test_openBlogPage ()
 	{
 
@@ -20,6 +23,7 @@ public class BlogRegisterationPageTest extends TestBase{
 	{
 		blogPageObject = new BlogPage(driver);
 		blogPageObject.openBlogRegisterationPage();
+		
 	}
 
 }
