@@ -9,7 +9,6 @@
           <include name="openURL"/>
           <include name="closeBrowser"/>
           <include name="test_openBlogRegistrationPage"/>
-          <include name="test_openBlogPage"/>
         </methods>
       </class> <!-- tests.BlogRegisterationPageTest -->
     </classes>
