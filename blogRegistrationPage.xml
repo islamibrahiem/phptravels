@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="phptravels Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="tests.BlogRegisterationPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
