@@ -13,12 +13,19 @@ public class HomePage extends PageBase	{
 		// TODO Auto-generated constructor stub
 	}
 
-//	@FindBy(linkText="Register")
-//	WebElement registerBtn;
-//	
-//	public void openRegisterPage()
-//	{
-//		clickButton(registerBtn);
-//	}
+	
+	@FindBy(css = "i.bx.bx-user")
+	WebElement myAccountDropDownList;
+	@FindBy(linkText = "Sign Up")
+	WebElement signUpBtn;
+	
+	public void clickOnMyAccountDropDownList()
+	{
+		clickButton(myAccountDropDownList);
+	}
+	public void openTheRegistrationPage()
+	{
+		clickButton(signUpBtn);
+	}
 
 }

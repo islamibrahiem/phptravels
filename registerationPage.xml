@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="phptravels Suite">
-	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
 	<test name="Regression Test" preserve-order="true">
 		<classes>
-			<class name="tests.OpenregistrationPage" />
+			<class name="tests.TestRegisterationPageTestUsingJavaFaker" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
