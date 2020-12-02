@@ -6,9 +6,9 @@
     <classes>
       <class name="tests.TestRegisterationtAndLoginPageUsingJavaFaker">
         <methods>
+          <include name="test_inputBlogResgistrationData"/>
           <include name="openURL"/>
           <include name="closeBrowser"/>
-          <include name="test_login"/>
         </methods>
       </class> <!-- tests.TestRegisterationtAndLoginPageUsingJavaFaker -->
     </classes>

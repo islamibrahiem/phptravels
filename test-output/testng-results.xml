@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-11-28T00:01:28 EET" name="phptravels Suite" finished-at="2020-11-28T00:01:30 EET" duration-ms="2111">
+  <suite started-at="2020-12-02T20:27:51 EET" name="phptravels Suite" finished-at="2020-12-02T20:27:58 EET" duration-ms="6503">
     <groups>
     </groups>
-    <test started-at="2020-11-28T00:01:28 EET" name="Regression Test" finished-at="2020-11-28T00:01:30 EET" duration-ms="2111">
-      <class name="tests.TestRegisterationPageTestUsingJavaFaker">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:09 EET" name="openURL" finished-at="2020-11-28T00:01:28 EET" duration-ms="18377" status="PASS">
-=======
-  <suite started-at="2020-12-02T13:56:27 EET" name="phptravels Suite" finished-at="2020-12-02T13:58:45 EET" duration-ms="138097">
-    <groups>
-    </groups>
-    <test started-at="2020-12-02T13:56:27 EET" name="Regression Test" finished-at="2020-12-02T13:58:45 EET" duration-ms="138097">
+    <test started-at="2020-12-02T20:27:51 EET" name="Regression Test" finished-at="2020-12-02T20:27:58 EET" duration-ms="6503">
       <class name="tests.TestRegisterationtAndLoginPageUsingJavaFaker">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@56637cff]" started-at="2020-12-02T13:54:36 EET" name="openURL" finished-at="2020-12-02T13:56:27 EET" duration-ms="111599" status="PASS">
->>>>>>> f0c5069e3d07895ef4ee8f290b23806c236d6e64
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@7158daf2]" started-at="2020-12-02T20:27:38 EET" name="openURL" finished-at="2020-12-02T20:27:51 EET" duration-ms="13833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,98 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-<<<<<<< HEAD
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:28 EET" name="test_inputBlogResgistrationData" finished-at="2020-11-28T00:01:30 EET" duration-ms="2090" status="PASS">
+        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@7158daf2]" started-at="2020-12-02T20:27:51 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-02T20:27:58 EET" duration-ms="6476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:30 EET" name="closeBrowser" finished-at="2020-11-28T00:01:30 EET" duration-ms="0" status="PASS">
-=======
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@56637cff]" started-at="2020-12-02T13:56:27 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-02T13:56:44 EET" duration-ms="16622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method signature="test_login()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@56637cff]" started-at="2020-12-02T13:56:44 EET" name="test_login" finished-at="2020-12-02T13:58:44 EET" duration-ms="120089" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: *[name='username']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-21NHCNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1232, moz:profile: C:\Users\IslamIbrahimAlyMoh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c38f5ba-4714-43cd-bdcb-98a8b4cb326f
-*** Element info: {Using=name, value=username}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='username']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-21NHCNS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1232, moz:profile: C:\Users\IslamIbrahimAlyMoh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c38f5ba-4714-43cd-bdcb-98a8b4cb326f
-*** Element info: {Using=name, value=username}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-at pages.PageBase.setTextElementText(PageBase.java:26)
-at pages.LoginPage.login(LoginPage.java:25)
-at tests.TestRegisterationtAndLoginPageUsingJavaFaker.test_login(TestRegisterationtAndLoginPageUsingJavaFaker.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_login -->
-        <test-method signature="test_logout()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@56637cff]" started-at="2020-12-02T13:58:44 EET" name="test_logout" finished-at="2020-12-02T13:58:45 EET" duration-ms="1287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@56637cff]" started-at="2020-12-02T13:58:46 EET" name="closeBrowser" finished-at="2020-12-02T13:58:46 EET" duration-ms="5" status="PASS">
->>>>>>> f0c5069e3d07895ef4ee8f290b23806c236d6e64
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisterationtAndLoginPageUsingJavaFaker@7158daf2]" started-at="2020-12-02T20:27:58 EET" name="closeBrowser" finished-at="2020-12-02T20:27:58 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

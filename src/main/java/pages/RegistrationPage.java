@@ -32,7 +32,8 @@ public class RegistrationPage extends PageBase {
 			String phoneNumberTxt,
 			String emailTxt,
 			String passwordTxt,
-			String confirmPasswordTxt) throws InterruptedException 
+			String confirmPasswordTxt)  
+
 	{
 		setTextElementText(firstName, firstNameTxt);
 		setTextElementText(lastName, lastNameTxt);
@@ -41,7 +42,6 @@ public class RegistrationPage extends PageBase {
 		setTextElementText(password, passwordTxt);
 		setTextElementText(confirmPassword, confirmPasswordTxt);
 		clickButton(signUpBtn);
-		Thread.sleep(10000);
 	}
 
 }

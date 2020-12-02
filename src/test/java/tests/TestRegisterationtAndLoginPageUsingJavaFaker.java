@@ -24,7 +24,7 @@ public class TestRegisterationtAndLoginPageUsingJavaFaker extends TestBase{
 	String test_password = fakeData.number().digits(10).toString();
 
 	@Test
-	public void test_inputBlogResgistrationData () throws InterruptedException
+	public void test_inputBlogResgistrationData () throws InterruptedException 
 	{
 		homePageObject = new HomePage(driver);
 		homePageObject.clickOnMyAccountDropDownList();
@@ -37,21 +37,19 @@ public class TestRegisterationtAndLoginPageUsingJavaFaker extends TestBase{
 				test_emailTxt, 
 				test_password, 
 				test_password);
-		
-		
+
+		Thread.sleep(2000);
+
+		myAccountPageObject = new MyAccountPage(driver);
+		myAccountPageObject.clickOnMyAccountDropDownList();
+		myAccountPageObject.logout();
+
+		loginPageObject = new LoginPage(driver);
+		loginPageObject.login(test_emailTxt, test_password);
+
+
 	}
-   @Test
-   public void test_logout ()
-   {
-	   myAccountPageObject = new MyAccountPage(driver);
-	   myAccountPageObject.clickOnMyAccountDropDownList();
-	   myAccountPageObject.logout();
-   }
-   
-   @Test
-   public void test_login() {
-	   loginPageObject = new LoginPage(driver);
-	   loginPageObject.login(test_emailTxt, test_password);
-   }
+
+
 
 }
