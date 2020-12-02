@@ -9,10 +9,43 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">phptravels Suite</th></tr>
+<<<<<<< HEAD
 <tr><td><a href="#t0">Regression Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,111</td><td></td><td></td></tr>
 </table>
 <table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">phptravels Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.TestRegisterationPageTestUsingJavaFaker</td><td><a href="#m0">test_inputBlogResgistrationData</a></td><td rowspan="1">1606514488113</td><td rowspan="1">2090</td></tr></tbody>
+=======
+<tr><td><a href="#t0">Regression Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">138,097</td><td></td><td></td></tr>
 </table>
-<h2>Regression Test</h2><h3 id="m0">tests.TestRegisterationPageTestUsingJavaFaker#test_inputBlogResgistrationData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">phptravels Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.TestRegisterationtAndLoginPageUsingJavaFaker</td><td><a href="#m0">test_login</a></td><td rowspan="1">1606910204422</td><td rowspan="1">120089</td></tr><tr><th colspan="4">Regression Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.TestRegisterationtAndLoginPageUsingJavaFaker</td><td><a href="#m1">test_inputBlogResgistrationData</a></td><td rowspan="1">1606910187790</td><td rowspan="1">16622</td></tr><tr class="passedeven"><td><a href="#m2">test_logout</a></td><td rowspan="1">1606910324522</td><td rowspan="1">1287</td></tr></tbody>
+>>>>>>> f0c5069e3d07895ef4ee8f290b23806c236d6e64
+</table>
+<h2>Regression Test</h2><h3 id="m0">tests.TestRegisterationtAndLoginPageUsingJavaFaker#test_login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;username&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-21NHCNS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1232, moz:profile: C:\Users\IslamIbrahimAlyMoh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c38f5ba-4714-43cd-bdcb-98a8b4cb326f
+*** Element info: {Using=name, value=username}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at pages.PageBase.setTextElementText(PageBase.java:26)
+	at pages.LoginPage.login(LoginPage.java:25)
+	at tests.TestRegisterationtAndLoginPageUsingJavaFaker.test_login(TestRegisterationtAndLoginPageUsingJavaFaker.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TestRegisterationtAndLoginPageUsingJavaFaker#test_inputBlogResgistrationData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.TestRegisterationtAndLoginPageUsingJavaFaker#test_logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
