@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-27T14:33:00 EET" name="phptravels Suite" finished-at="2020-11-27T14:33:02 EET" duration-ms="2144">
+  <suite started-at="2020-11-28T00:01:28 EET" name="phptravels Suite" finished-at="2020-11-28T00:01:30 EET" duration-ms="2111">
     <groups>
     </groups>
-    <test started-at="2020-11-27T14:33:00 EET" name="Regression Test" finished-at="2020-11-27T14:33:02 EET" duration-ms="2144">
+    <test started-at="2020-11-28T00:01:28 EET" name="Regression Test" finished-at="2020-11-28T00:01:30 EET" duration-ms="2111">
       <class name="tests.TestRegisterationPageTestUsingJavaFaker">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-27T14:32:50 EET" name="openURL" finished-at="2020-11-27T14:33:00 EET" duration-ms="10542" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:09 EET" name="openURL" finished-at="2020-11-28T00:01:28 EET" duration-ms="18377" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-27T14:33:00 EET" name="test_inputBlogResgistrationData" finished-at="2020-11-27T14:33:02 EET" duration-ms="2118" status="PASS">
+        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:28 EET" name="test_inputBlogResgistrationData" finished-at="2020-11-28T00:01:30 EET" duration-ms="2090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-27T14:33:03 EET" name="closeBrowser" finished-at="2020-11-27T14:33:03 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisterationPageTestUsingJavaFaker@7158daf2]" started-at="2020-11-28T00:01:30 EET" name="closeBrowser" finished-at="2020-11-28T00:01:30 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
