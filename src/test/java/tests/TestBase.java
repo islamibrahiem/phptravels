@@ -14,12 +14,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 
-//import com.beust.jcommander.Parameters;
-//import io.cucumber.testng.AbstractTestNGCucumberTests;
-//import utilities.Helper;
-
-//public class TestBase extends AbstractTestNGCucumberTests{
-
 public class TestBase {
 	public static WebDriver driver;
 
@@ -28,26 +22,17 @@ public class TestBase {
 	public void openURL(@Optional("chrome") String browserName) {
 		if(browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
-			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if (browserName.equalsIgnoreCase("chrome"))
 		{
 
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
-			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		else if (browserName.equalsIgnoreCase("chrome-headless"))
-		{
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			options.addArguments("--window-size=1920,1080");
-			driver = new ChromeDriver(options);
-		}
-
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.get("https://phptravels.net/home");
