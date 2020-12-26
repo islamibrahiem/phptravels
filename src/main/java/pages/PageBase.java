@@ -10,7 +10,7 @@ public class PageBase {
 
     protected WebDriver driver;
     public JavascriptExecutor jse ;
-	public Select selectOptions;
+	public static Select selectOptions;
 
 	
 	public PageBase(WebDriver driver)
@@ -26,9 +26,13 @@ public class PageBase {
 		textElement.sendKeys(value);
 		
 	}
+	public static void clearText(WebElement element)
+	{
+		element.clear();
+	}
 	
 	public void scrollToBottom() {
-		jse.executeScript("scrollBy(0,2500)");	
+		jse.executeScript("scrollBy(0,2000)");	
 	}
 
 }

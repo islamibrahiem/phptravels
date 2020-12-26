@@ -16,6 +16,10 @@ public class MyAccountPage extends PageBase {
 	WebElement userNameDropDownList;
 	@FindBy(linkText = "Logout")
 	WebElement logoutBtn;
+	@FindBy(xpath = "/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[1]/aside/nav/ul/li[2]/a")
+	//@FindBy(linkText  = "My Profile")
+	WebElement myprofileBtn;
+
 	
 	public void clickOnMyAccountDropDownList()
 	{
@@ -24,6 +28,10 @@ public class MyAccountPage extends PageBase {
 	
 	public void logout () {
 		clickButton(logoutBtn);
+	}
+	public void openMyProfile()
+	{
+		clickButton(myprofileBtn);
 	}
 	
 
