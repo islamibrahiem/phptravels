@@ -67,11 +67,9 @@ public class MyProfile extends PageBase {
 		//		selectOptions.selectByVisibleText("Egypt");
 		clearText(phone);
 		setTextElementText(phone, phoneTxt);
+		clickButton(submitBtn);
 
 	}
-	//	public void clicksubmit () {
-	//		scrollToBottom();
-	//		clickButton(submitBtn);
-	//	}
+
 
 }

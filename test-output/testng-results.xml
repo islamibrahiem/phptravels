@@ -2,29 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-12-25T00:10:02 EET" name="phptravels Suite" finished-at="2020-12-25T00:10:09 EET" duration-ms="6863">
-=======
-<<<<<<< HEAD
-  <suite started-at="2020-12-26T23:04:57 EET" name="phptravels Suite" finished-at="2020-12-26T23:05:06 EET" duration-ms="9781">
+  <suite started-at="2020-12-26T23:26:26 EET" name="phptravels Suite" finished-at="2020-12-26T23:26:34 EET" duration-ms="7379">
     <groups>
     </groups>
-    <test started-at="2020-12-26T23:04:57 EET" name="Regression Test" finished-at="2020-12-26T23:05:06 EET" duration-ms="9781">
+    <test started-at="2020-12-26T23:26:26 EET" name="Regression Test" finished-at="2020-12-26T23:26:34 EET" duration-ms="7379">
       <class name="tests.TestMyProfile">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-26T23:04:44 EET" name="openURL" finished-at="2020-12-26T23:04:57 EET" duration-ms="12146" status="PASS">
-=======
-  <suite started-at="2020-12-21T19:36:25 EET" name="phptravels Suite" finished-at="2020-12-21T19:36:34 EET" duration-ms="8221">
->>>>>>> 44c2b84b891d43c82a68d91c686150335261c535
-    <groups>
-    </groups>
-    <test started-at="2020-12-25T00:10:02 EET" name="Regression Test" finished-at="2020-12-25T00:10:09 EET" duration-ms="6863">
-      <class name="tests.TestMyProfile">
-<<<<<<< HEAD
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-25T00:09:54 EET" name="openURL" finished-at="2020-12-25T00:10:02 EET" duration-ms="7672" status="PASS">
-=======
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-21T19:35:55 EET" name="openURL" finished-at="2020-12-21T19:36:25 EET" duration-ms="30120" status="PASS">
->>>>>>> 151694a834ecf3434ba1a93ace536d31951a612a
->>>>>>> 44c2b84b891d43c82a68d91c686150335261c535
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-26T23:26:20 EET" name="openURL" finished-at="2020-12-26T23:26:26 EET" duration-ms="6235" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,27 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-<<<<<<< HEAD
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-25T00:10:02 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-25T00:10:09 EET" duration-ms="6834" status="PASS">
+        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-26T23:26:26 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-26T23:26:34 EET" duration-ms="7353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-25T00:10:09 EET" name="closeBrowser" finished-at="2020-12-25T00:10:09 EET" duration-ms="1" status="PASS">
-=======
-<<<<<<< HEAD
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-26T23:04:57 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-26T23:05:06 EET" duration-ms="9730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-26T23:05:06 EET" name="closeBrowser" finished-at="2020-12-26T23:05:06 EET" duration-ms="1" status="PASS">
-=======
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-21T19:36:25 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-21T19:36:34 EET" duration-ms="8185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-21T19:36:34 EET" name="closeBrowser" finished-at="2020-12-21T19:36:34 EET" duration-ms="1" status="PASS">
->>>>>>> 151694a834ecf3434ba1a93ace536d31951a612a
->>>>>>> 44c2b84b891d43c82a68d91c686150335261c535
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@7158daf2]" started-at="2020-12-26T23:26:34 EET" name="closeBrowser" finished-at="2020-12-26T23:26:34 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

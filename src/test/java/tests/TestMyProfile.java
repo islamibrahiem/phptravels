@@ -73,7 +73,6 @@ public class TestMyProfile extends TestBase{
 				test_state,
 				test_zipcode,
 				test_phoneNumber);
-		//myprofilepageObject.clicksubmit();
 	}
 
 }
