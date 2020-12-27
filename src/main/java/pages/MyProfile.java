@@ -69,9 +69,11 @@ public class MyProfile extends PageBase {
 		setTextElementText(phone, phoneTxt);
 		scrollToBottom();
 		clickButton(submitBtn);
-
+		scrollToUp();
 
 	}
+
+
 
 
 }

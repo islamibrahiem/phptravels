@@ -59,10 +59,10 @@ public class TestMyProfile extends TestBase{
 
 
 		myAccountPageObject.openMyProfile();
-	    
+
 
 		myprofilepageObject = new MyProfile(driver);
-		
+
 		myprofilepageObject.editMyProfileData(test_firstNameTxt,
 				test_lastNameTxt,
 				test_emailTxt,
@@ -74,6 +74,8 @@ public class TestMyProfile extends TestBase{
 				test_state,
 				test_zipcode,
 				test_phoneNumber);
+
 	}
+
 
 }

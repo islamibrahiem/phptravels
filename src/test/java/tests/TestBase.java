@@ -22,15 +22,15 @@ public class TestBase {
 	public void openURL(@Optional("chrome") String browserName) {
 		if(browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
-			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if (browserName.equalsIgnoreCase("chrome"))
 		{
 
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
-			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
