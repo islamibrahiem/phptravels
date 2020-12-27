@@ -70,5 +70,18 @@
 				<testNGSuite>TestRegisterationtAndLoginPageUsingJavaFaker.xml</testNGSuite>
 			</properties>
 		</profile>
+		<profile>
+			<id>editmyprofile</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+				<property>
+					<name>environment</name>
+					<value>regression</value>
+				</property>
+			</activation>
+			<properties>
+				<testNGSuite>editMyProfile.xml</testNGSuite>
+			</properties>
+		</profile>
 	</profiles>
 </project>
