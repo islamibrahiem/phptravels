@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +11,7 @@ public class MyProfile extends PageBase {
 	public MyProfile(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
+		jse = (JavascriptExecutor) driver;
 	}
 
 	@FindBy(name = "firstname")
@@ -52,8 +54,6 @@ public class MyProfile extends PageBase {
 			String zipCodeTxt,
 			String phoneTxt)
 	{
-
-
 		clearText(email);
 		setTextElementText(email, emailTxt);
 		setTextElementText(password, passwordTxt);
@@ -67,7 +67,9 @@ public class MyProfile extends PageBase {
 		//		selectOptions.selectByVisibleText("Egypt");
 		clearText(phone);
 		setTextElementText(phone, phoneTxt);
+		scrollToBottom();
 		clickButton(submitBtn);
+
 
 	}
 
