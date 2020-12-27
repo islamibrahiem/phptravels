@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,9 +36,12 @@ public class MyProfile extends PageBase {
 	WebElement state;
 	@FindBy(name = "zip")
 	WebElement zipCode;
-	//@FindBy(css = "select.chosen-the-basic.form-control.form-bg-light")
-	//	@FindBy(xpath = "//*[@id=\"profilefrm\"]/div/div/div[4]/div[2]/div/select")
-	//	 WebElement country;
+	@FindBy(css = "a.chosen-single")
+	WebElement country;
+	@FindBy(css = "input.chosen-search-input")
+	WebElement country_input;
+	@FindBy(css = "ul.chosen-results")
+	List<WebElement> countrieslist;
 	@FindBy(name="phone")
 	WebElement phone;
 	@FindBy(css = "button.btn.btn-block.updateprofile.btn-primary")
@@ -63,10 +68,11 @@ public class MyProfile extends PageBase {
 		setTextElementText(state, stateTxt);
 		setTextElementText(city, cityTxt);
 		setTextElementText(zipCode, zipCodeTxt);
-		//		selectOptions = new Select(country);
-		//		selectOptions.selectByVisibleText("Egypt");
+		clickButton(country);
+		setTextElementText(country_input, "Egypt");
+		countrieslist.get(0).click();
 		clearText(phone);
-		setTextElementText(phone, phoneTxt);
+        setTextElementText(phone, phoneTxt);
 		scrollToBottom();
 		clickButton(submitBtn);
 		scrollToUp();
