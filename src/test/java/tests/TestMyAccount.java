@@ -26,7 +26,7 @@ public class TestMyAccount extends TestBase{
 	String test_password = fakeData.number().digits(10).toString();
 
 	@Test
-	public void test_inputBlogResgistrationData () throws InterruptedException 
+	public void test_inputResgistrationData () throws InterruptedException 
 	{
 		homePageObject = new HomePage(driver);
 		homePageObject.clickOnMyAccountDropDownList();

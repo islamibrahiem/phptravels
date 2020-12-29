@@ -34,7 +34,7 @@ public class TestMyProfile extends TestBase{
 
 
 	@Test
-	public void test_inputBlogResgistrationData () throws InterruptedException 
+	public void test_inputResgistrationData () throws InterruptedException 
 	{
 		homePageObject = new HomePage(driver);
 		homePageObject.clickOnMyAccountDropDownList();
@@ -55,8 +55,8 @@ public class TestMyProfile extends TestBase{
 		myAccountPageObject.logout();
 
 		loginPageObject = new LoginPage(driver);
-		loginPageObject.login(test_emailTxt, test_password);
-
+		//loginPageObject.login(test_emailTxt, test_password);
+		loginPageObject.login(test_emailTxt, test_emailTxt);
 
 		myAccountPageObject.openMyProfile();
 
