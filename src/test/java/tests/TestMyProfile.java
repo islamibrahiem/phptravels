@@ -55,8 +55,8 @@ public class TestMyProfile extends TestBase{
 		myAccountPageObject.logout();
 
 		loginPageObject = new LoginPage(driver);
-		//loginPageObject.login(test_emailTxt, test_password);
-		loginPageObject.login(test_emailTxt, test_emailTxt);
+		loginPageObject.login(test_emailTxt, test_password);
+		
 
 		myAccountPageObject.openMyProfile();
 
