@@ -9,6 +9,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.MyProfile;
+import pages.NewsLetter;
 import pages.RegistrationPage;
 
 public class TestMyProfile extends TestBase{
@@ -18,6 +19,7 @@ public class TestMyProfile extends TestBase{
 	LoginPage loginPageObject;
 	MyAccountPage myAccountPageObject;
 	MyProfile myprofilepageObject;
+	NewsLetter newLetterObject;
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -56,9 +58,9 @@ public class TestMyProfile extends TestBase{
 
 		loginPageObject = new LoginPage(driver);
 		loginPageObject.login(test_emailTxt, test_password);
-		
 
-		myAccountPageObject.openMyProfile();
+
+		myAccountPageObject.openMyProfilePage();
 
 
 		myprofilepageObject = new MyProfile(driver);
@@ -74,6 +76,20 @@ public class TestMyProfile extends TestBase{
 				test_state,
 				test_zipcode,
 				test_phoneNumber);
+
+		Thread.sleep(2000);
+
+		myAccountPageObject.openNewsLetterPage();
+
+		newLetterObject = new NewsLetter(driver);
+		newLetterObject.clickOnSubscribe();
+
+		Thread.sleep(1000);
+
+		myAccountPageObject.openHomePage();
+
+
+
 
 	}
 
