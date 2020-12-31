@@ -9,30 +9,42 @@ public class MyAccountPage extends PageBase {
 	public MyAccountPage(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
-		
+
 	}
-	
+
 	@FindBy(css = "i.bx.bx-user")
 	WebElement userNameDropDownList;
 	@FindBy(linkText = "Logout")
 	WebElement logoutBtn;
-	@FindBy(xpath = "/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[1]/aside/nav/ul/li[2]/a")
-	//@FindBy(linkText  = "My Profile")
+	@FindBy(linkText = "MY PROFILE")
 	WebElement myprofileBtn;
+	@FindBy(linkText = "NEWSLETTER")
+	WebElement newsLetterBtn;
+	@FindBy(linkText = "HOME")
+	WebElement homeBtn;
 
-	
+
+
 	public void clickOnMyAccountDropDownList()
 	{
 		clickButton(userNameDropDownList);
 	}
-	
+
 	public void logout () {
 		clickButton(logoutBtn);
 	}
-	public void openMyProfile()
+	public void openMyProfilePage()
 	{
 		clickButton(myprofileBtn);
 	}
-	
+	public void openNewsLetterPage()
+	{
+		clickButton(newsLetterBtn);
+	}
+	public void openHomePage()
+	{
+		clickButton(homeBtn);
+	}
+
 
 }

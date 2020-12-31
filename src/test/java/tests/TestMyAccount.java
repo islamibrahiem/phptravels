@@ -8,6 +8,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.MyProfile;
+import pages.NewsLetter;
 import pages.RegistrationPage;
 
 public class TestMyAccount extends TestBase{
@@ -17,6 +18,7 @@ public class TestMyAccount extends TestBase{
 	LoginPage loginPageObject;
 	MyAccountPage myAccountPageObject;
 	MyProfile myprofilepageObject;
+	
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -26,7 +28,7 @@ public class TestMyAccount extends TestBase{
 	String test_password = fakeData.number().digits(10).toString();
 
 	@Test
-	public void test_inputBlogResgistrationData () throws InterruptedException 
+	public void test_inputResgistrationData () throws InterruptedException 
 	{
 		homePageObject = new HomePage(driver);
 		homePageObject.clickOnMyAccountDropDownList();
@@ -49,7 +51,7 @@ public class TestMyAccount extends TestBase{
 		loginPageObject = new LoginPage(driver);
 		loginPageObject.login(test_emailTxt, test_password);
 
-		myAccountPageObject.openMyProfile();
+		myAccountPageObject.openMyProfilePage();
 
 
 	}

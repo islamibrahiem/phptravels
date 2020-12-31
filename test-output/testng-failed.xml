@@ -6,9 +6,10 @@
     <classes>
       <class name="tests.TestMyProfile">
         <methods>
+          <include name="screenshotOnfailure"/>
           <include name="openURL"/>
           <include name="closeBrowser"/>
-          <include name="test_inputBlogResgistrationData"/>
+          <include name="test_inputResgistrationData"/>
         </methods>
       </class> <!-- tests.TestMyProfile -->
     </classes>
