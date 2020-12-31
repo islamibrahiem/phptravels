@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-27T08:15:12 EET" name="phptravels Suite" finished-at="2020-12-27T08:15:23 EET" duration-ms="10763">
+  <suite started-at="2020-12-27T12:44:14 EET" name="phptravels Suite" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
     <groups>
     </groups>
-    <test started-at="2020-12-27T08:15:12 EET" name="Regression Test" finished-at="2020-12-27T08:15:23 EET" duration-ms="10763">
+    <test started-at="2020-12-27T12:44:14 EET" name="Regression Test" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
       <class name="tests.TestMyProfile">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T08:14:59 EET" name="openURL" finished-at="2020-12-27T08:15:12 EET" duration-ms="12984" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:43:25 EET" name="openURL" finished-at="2020-12-27T12:44:14 EET" duration-ms="48618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T08:15:12 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-27T08:15:23 EET" duration-ms="10715" status="PASS">
+        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:14 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-27T12:44:41 EET" duration-ms="26812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T08:15:23 EET" name="closeBrowser" finished-at="2020-12-27T08:15:23 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:41 EET" name="closeBrowser" finished-at="2020-12-27T12:44:41 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
