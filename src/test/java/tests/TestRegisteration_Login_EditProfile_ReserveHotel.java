@@ -1,6 +1,5 @@
 package tests;
 
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
@@ -13,15 +12,15 @@ import pages.MyProfile;
 import pages.NewsLetter;
 import pages.RegistrationPage;
 
-public class TestMyProfile extends TestBase{
-
+public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
+	
 	HomePage homePageObject ;
 	RegistrationPage registrationPageObject ;
 	LoginPage loginPageObject;
 	MyAccountPage myAccountPageObject;
 	MyProfile myprofilepageObject;
 	NewsLetter newLetterObject;
-
+	HotelReservation hotelReservationObject;
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -90,13 +89,9 @@ public class TestMyProfile extends TestBase{
 
 		myAccountPageObject.openHomePage();
 		
+		hotelReservationObject = new HotelReservation(driver);
+		hotelReservationObject.reserveHotel();
 
-		
-
-
-
-
-	}
-
+}
 
 }

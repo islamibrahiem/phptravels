@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-30T20:41:39 EET" name="phptravels Suite" finished-at="2020-12-30T20:41:52 EET" duration-ms="12504">
+  <suite started-at="2021-01-03T21:29:40 EET" name="phptravels Suite" finished-at="2021-01-03T21:29:53 EET" duration-ms="13490">
     <groups>
     </groups>
-    <test started-at="2020-12-30T20:41:39 EET" name="Regression Test" finished-at="2020-12-30T20:41:52 EET" duration-ms="12504">
+    <test started-at="2021-01-03T21:29:40 EET" name="Regression Test" finished-at="2021-01-03T21:29:53 EET" duration-ms="13490">
       <class name="tests.TestMyProfile">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:33 EET" name="openURL" finished-at="2020-12-30T20:41:39 EET" duration-ms="6422" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:33 EET" name="openURL" finished-at="2021-01-03T21:29:40 EET" duration-ms="7038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:39 EET" name="test_inputResgistrationData" finished-at="2020-12-30T20:41:52 EET" duration-ms="12479" status="PASS">
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:40 EET" name="test_inputResgistrationData" finished-at="2021-01-03T21:29:53 EET" duration-ms="13456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputResgistrationData -->
-        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:52 EET" name="screenshotOnfailure" finished-at="2020-12-30T20:41:52 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:53 EET" name="screenshotOnfailure" finished-at="2021-01-03T21:29:53 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:52 EET" name="closeBrowser" finished-at="2020-12-30T20:41:52 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:53 EET" name="closeBrowser" finished-at="2021-01-03T21:29:53 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
