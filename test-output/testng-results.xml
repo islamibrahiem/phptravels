@@ -2,12 +2,29 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2021-01-03T21:29:40 EET" name="phptravels Suite" finished-at="2021-01-03T21:29:53 EET" duration-ms="13490">
+=======
+<<<<<<< HEAD
+  <suite started-at="2020-12-27T12:44:14 EET" name="phptravels Suite" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
+    <groups>
+    </groups>
+    <test started-at="2020-12-27T12:44:14 EET" name="Regression Test" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
+      <class name="tests.TestMyProfile">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:43:25 EET" name="openURL" finished-at="2020-12-27T12:44:14 EET" duration-ms="48618" status="PASS">
+=======
+  <suite started-at="2020-12-30T20:41:39 EET" name="phptravels Suite" finished-at="2020-12-30T20:41:52 EET" duration-ms="12504">
+>>>>>>> 02f87eb857f9c1aa9e864a2216cae803557ea931
     <groups>
     </groups>
     <test started-at="2021-01-03T21:29:40 EET" name="Regression Test" finished-at="2021-01-03T21:29:53 EET" duration-ms="13490">
       <class name="tests.TestMyProfile">
+<<<<<<< HEAD
         <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:33 EET" name="openURL" finished-at="2021-01-03T21:29:40 EET" duration-ms="7038" status="PASS">
+=======
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:33 EET" name="openURL" finished-at="2020-12-30T20:41:39 EET" duration-ms="6422" status="PASS">
+>>>>>>> 51e9e7825a970b955d45f8142b9d0d865ec412d0
+>>>>>>> 02f87eb857f9c1aa9e864a2216cae803557ea931
           <params>
             <param index="0">
               <value>
@@ -18,7 +35,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
+<<<<<<< HEAD
         <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:40 EET" name="test_inputResgistrationData" finished-at="2021-01-03T21:29:53 EET" duration-ms="13456" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:14 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-27T12:44:41 EET" duration-ms="26812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_inputBlogResgistrationData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:41 EET" name="closeBrowser" finished-at="2020-12-27T12:44:41 EET" duration-ms="1" status="PASS">
+=======
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:39 EET" name="test_inputResgistrationData" finished-at="2020-12-30T20:41:52 EET" duration-ms="12479" status="PASS">
+>>>>>>> 02f87eb857f9c1aa9e864a2216cae803557ea931
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputResgistrationData -->
@@ -33,7 +61,12 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2021-01-03T21:29:53 EET" name="closeBrowser" finished-at="2021-01-03T21:29:53 EET" duration-ms="0" status="PASS">
+=======
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:52 EET" name="closeBrowser" finished-at="2020-12-30T20:41:52 EET" duration-ms="0" status="PASS">
+>>>>>>> 51e9e7825a970b955d45f8142b9d0d865ec412d0
+>>>>>>> 02f87eb857f9c1aa9e864a2216cae803557ea931
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
