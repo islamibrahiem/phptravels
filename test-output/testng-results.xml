@@ -2,21 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-12-27T12:44:14 EET" name="phptravels Suite" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
+  <suite started-at="2021-01-01T20:42:14 EET" name="phptravels Suite" finished-at="2021-01-01T20:42:31 EET" duration-ms="16916">
     <groups>
     </groups>
-    <test started-at="2020-12-27T12:44:14 EET" name="Regression Test" finished-at="2020-12-27T12:44:41 EET" duration-ms="26962">
+    <test started-at="2021-01-01T20:42:14 EET" name="Regression Test" finished-at="2021-01-01T20:42:31 EET" duration-ms="16916">
       <class name="tests.TestMyProfile">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:43:25 EET" name="openURL" finished-at="2020-12-27T12:44:14 EET" duration-ms="48618" status="PASS">
-=======
-  <suite started-at="2020-12-30T20:41:39 EET" name="phptravels Suite" finished-at="2020-12-30T20:41:52 EET" duration-ms="12504">
-    <groups>
-    </groups>
-    <test started-at="2020-12-30T20:41:39 EET" name="Regression Test" finished-at="2020-12-30T20:41:52 EET" duration-ms="12504">
-      <class name="tests.TestMyProfile">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:33 EET" name="openURL" finished-at="2020-12-30T20:41:39 EET" duration-ms="6422" status="PASS">
->>>>>>> 51e9e7825a970b955d45f8142b9d0d865ec412d0
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestMyProfile@ff23ae7]" started-at="2021-01-01T20:42:03 EET" name="openURL" finished-at="2021-01-01T20:42:14 EET" duration-ms="11002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,30 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-<<<<<<< HEAD
-        <test-method signature="test_inputBlogResgistrationData()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:14 EET" name="test_inputBlogResgistrationData" finished-at="2020-12-27T12:44:41 EET" duration-ms="26812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_inputBlogResgistrationData -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@5a1c3cb4]" started-at="2020-12-27T12:44:41 EET" name="closeBrowser" finished-at="2020-12-27T12:44:41 EET" duration-ms="1" status="PASS">
-=======
-        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:39 EET" name="test_inputResgistrationData" finished-at="2020-12-30T20:41:52 EET" duration-ms="12479" status="PASS">
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@ff23ae7]" started-at="2021-01-01T20:42:14 EET" name="test_inputResgistrationData" finished-at="2021-01-01T20:42:31 EET" duration-ms="16829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputResgistrationData -->
-        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:52 EET" name="screenshotOnfailure" finished-at="2020-12-30T20:41:52 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestMyProfile@ff23ae7]" started-at="2021-01-01T20:42:31 EET" name="screenshotOnfailure" finished-at="2021-01-01T20:42:31 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestMyProfile.test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@12d1f1d4] output={null}]]]>
+                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestMyProfile.test_inputResgistrationData()[pri:0, instance:tests.TestMyProfile@ff23ae7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@12d1f1d4]" started-at="2020-12-30T20:41:52 EET" name="closeBrowser" finished-at="2020-12-30T20:41:52 EET" duration-ms="0" status="PASS">
->>>>>>> 51e9e7825a970b955d45f8142b9d0d865ec412d0
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestMyProfile@ff23ae7]" started-at="2021-01-01T20:42:31 EET" name="closeBrowser" finished-at="2021-01-01T20:42:31 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
