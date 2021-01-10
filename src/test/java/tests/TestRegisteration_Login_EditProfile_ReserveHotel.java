@@ -6,6 +6,7 @@ import com.github.javafaker.Faker;
 
 import pages.HomePage;
 import pages.HotelReservation;
+import pages.HotelReservationDetails;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.MyProfile;
@@ -21,6 +22,7 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 	MyProfile myprofilepageObject;
 	NewsLetter newLetterObject;
 	HotelReservation hotelReservationObject;
+	HotelReservationDetails hotelReservationDetailsObject;
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -91,6 +93,9 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 		
 		hotelReservationObject = new HotelReservation(driver);
 		hotelReservationObject.reserveHotel();
+		
+		hotelReservationDetailsObject = new HotelReservationDetails(driver);
+		hotelReservationDetailsObject.reserveHotelWithMoreDetails();
 
 }
 
