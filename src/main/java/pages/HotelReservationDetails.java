@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,25 +15,36 @@ public class HotelReservationDetails extends PageBase{
 
 		// TODO Auto-generated constructor stub
 	}
-	
-  @FindBy(linkText = "FACILITIES")
-  WebElement facilities;
-  @FindBy (xpath = "//*[@id=\"detail-content-sticky-nav-02\"]/form/div/div[2]/div/div[2]/div/div[2]/h5/div/label")
-  WebElement executiveSuite;
-  @FindBy(name = "roomscount[21]")
-  WebElement roomCount;
-  @FindBy(css = "button.book_button.btn.btn-success.btn-block.btn-lg.chk")
-  WebElement bookNow;
-  
-  public void reserveHotelWithMoreDetails()
-  {
-	  clickButton(facilities);
-	  clickButton(executiveSuite);
-	  selectOptions = new Select(roomCount);
-	  selectOptions.selectByVisibleText("2");
-	  scrollToBottom();
-	  clickButton(bookNow);
-	 
-  }
-  
+
+	@FindBy(linkText = "FACILITIES")
+	WebElement facilities;
+	@FindBy (xpath = "//*[@id=\"detail-content-sticky-nav-02\"]/form/div/div[2]/div/div[2]/div/div[2]/h5/div/label")
+	WebElement executiveSuite;
+	@FindBy( xpath = "//*[@id=\"detail-content-sticky-nav-02\"]/form/div/div[2]/div/div[2]/div/div[2]/div[3]/div/select")
+	WebElement roomCount;
+	@FindBy(css = "button.book_button.btn.btn-success.btn-block.btn-lg.chk")
+	WebElement bookNow;
+	@FindBy(name = "logged")
+	WebElement confirmThisBooking;
+	@FindBy(css = "button.btn.btn-default.arrivalpay")
+	WebElement payOnArrival;
+
+	public void reserveHotelWithMoreDetails() throws InterruptedException
+	{
+		clickButton(facilities);
+		Thread.sleep(10000);
+		clickButton(executiveSuite);
+		selectOptions = new Select(roomCount);
+		selectOptions.selectByVisibleText("2");
+     	scrollToBottom();
+        clickButton(bookNow);
+		scrollToBottom();
+		clickButton(confirmThisBooking);
+		clickButton(payOnArrival);
+
+//		alert = driver.switchTo().alert();
+//		alert.accept();
+		
+	}
+
 }
