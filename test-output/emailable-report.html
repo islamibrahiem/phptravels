@@ -9,10 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">phptravels Suite</th></tr>
-<tr><td><a href="#t0">Regression Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42,031</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Regression Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,577</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">phptravels Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.TestRegisteration_Login_EditProfile_ReserveHotel</td><td><a href="#m0">test_inputResgistrationData</a></td><td rowspan="1">1610389304692</td><td rowspan="1">42001</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">phptravels Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.TestRegisteration_Login_EditProfile_ReserveHotel</td><td><a href="#m0">screenshotOnfailure</a></td><td rowspan="1">1610561031737</td><td rowspan="1">10</td></tr><tr><th colspan="4">Regression Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.TestRegisteration_Login_EditProfile_ReserveHotel</td><td><a href="#m1">test_inputResgistrationData</a></td><td rowspan="1">1610560999210</td><td rowspan="1">32524</td></tr></tbody>
 </table>
-<h2>Regression Test</h2><h3 id="m0">tests.TestRegisteration_Login_EditProfile_ReserveHotel#test_inputResgistrationData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Test</h2><h3 id="m0">tests.TestRegisteration_Login_EditProfile_ReserveHotel#screenshotOnfailure</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=test_inputResgistrationData status=FAILURE method=TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to pay at arrival?}
+  (Session info: chrome=87.0.4280.141): Are you sure you want to pay at arrival?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;islam-Inspiron-5570&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-36-generic&apos;, java.version: &apos;11.0.9.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /tmp/.com.google.Chrome.nbSk6Z}, goog:chromeOptions: {debuggerAddress: localhost:37079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d420525aeac415e6b16d7078637b5957
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.Helper.captureScreenshot(Helper.java:20)
+	at tests.TestBase.screenshotOnfailure(TestBase.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TestRegisteration_Login_EditProfile_ReserveHotel#test_inputResgistrationData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at pages.HotelReservationDetails.reserveHotelWithMoreDetails(HotelReservationDetails.java:50)
+	at tests.TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData(TestRegisteration_Login_EditProfile_ReserveHotel.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

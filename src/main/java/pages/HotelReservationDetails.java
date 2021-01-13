@@ -5,7 +5,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HotelReservationDetails extends PageBase{
 
@@ -28,6 +30,8 @@ public class HotelReservationDetails extends PageBase{
 	WebElement confirmThisBooking;
 	@FindBy(css = "button.btn.btn-default.arrivalpay")
 	WebElement payOnArrival;
+	@FindBy(linkText = "OK")
+	WebElement Ok;
 
 	public void reserveHotelWithMoreDetails() throws InterruptedException
 	{
@@ -36,15 +40,21 @@ public class HotelReservationDetails extends PageBase{
 		clickButton(executiveSuite);
 		selectOptions = new Select(roomCount);
 		selectOptions.selectByVisibleText("2");
-     	scrollToBottom();
-        clickButton(bookNow);
+		scrollToBottom();
+		clickButton(bookNow);
 		scrollToBottom();
 		clickButton(confirmThisBooking);
 		clickButton(payOnArrival);
+		//	Thread.sleep(10000);
+		//
+		//		WebDriverWait wait = new WebDriverWait(driver, 5);
+		//		wait.until(ExpectedConditions.alertIsPresent());
+		//		
+		//		//clickButton(Ok);
+		//		
+		//		driver.switchTo().alert().accept();
 
-//		alert = driver.switchTo().alert();
-//		alert.accept();
-		
+
 	}
 
 }

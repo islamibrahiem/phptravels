@@ -52,6 +52,6 @@ public class TestBase {
 
 	@AfterSuite
 	public void closeBrowser() {
-		//driver.quit();
+		driver.quit();
 	}
 }
