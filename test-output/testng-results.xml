@@ -2,12 +2,21 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2021-01-13T20:03:19 EET" name="phptravels Suite" finished-at="2021-01-13T20:03:51 EET" duration-ms="32577">
     <groups>
     </groups>
     <test started-at="2021-01-13T20:03:19 EET" name="Regression Test" finished-at="2021-01-13T20:03:51 EET" duration-ms="32577">
       <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel">
         <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4]" started-at="2021-01-13T20:03:13 EET" name="openURL" finished-at="2021-01-13T20:03:19 EET" duration-ms="5950" status="PASS">
+=======
+  <suite started-at="2021-01-13T21:03:20 EET" name="phptravels Suite" finished-at="2021-01-13T21:04:05 EET" duration-ms="45359">
+    <groups>
+    </groups>
+    <test started-at="2021-01-13T21:03:20 EET" name="Regression Test" finished-at="2021-01-13T21:04:05 EET" duration-ms="45359">
+      <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@ff23ae7]" started-at="2021-01-13T21:03:08 EET" name="openURL" finished-at="2021-01-13T21:03:20 EET" duration-ms="11641" status="PASS">
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
           <params>
             <param index="0">
               <value>
@@ -18,11 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
+<<<<<<< HEAD
         <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4]" started-at="2021-01-13T20:03:19 EET" name="test_inputResgistrationData" finished-at="2021-01-13T20:03:51 EET" duration-ms="32524" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at pages.HotelReservationDetails.reserveHotelWithMoreDetails(HotelReservationDetails.java:50)
+=======
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@ff23ae7]" started-at="2021-01-13T21:03:20 EET" name="test_inputResgistrationData" finished-at="2021-01-13T21:04:05 EET" duration-ms="45180" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at pages.HotelReservationDetails.reserveHotelWithMoreDetails(HotelReservationDetails.java:44)
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
 at tests.TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData(TestRegisteration_Login_EditProfile_ReserveHotel.java:98)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -58,11 +75,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputResgistrationData -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4]" started-at="2021-01-13T20:03:51 EET" name="screenshotOnfailure" finished-at="2021-01-13T20:03:51 EET" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=test_inputResgistrationData status=FAILURE method=TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4] output={null}]]]>
+=======
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@ff23ae7]" started-at="2021-01-13T21:04:05 EET" name="screenshotOnfailure" finished-at="2021-01-13T21:04:05 EET" duration-ms="87" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_inputResgistrationData status=FAILURE method=TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@ff23ae7] output={null}]]]>
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
               </value>
             </param>
           </params>
@@ -71,19 +96,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[unexpected alert open: {Alert text : Are you sure you want to pay at arrival?}
   (Session info: chrome=87.0.4280.141): Are you sure you want to pay at arrival?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+<<<<<<< HEAD
 System info: host: 'islam-Inspiron-5570', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-36-generic', java.version: '11.0.9.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /tmp/.com.google.Chrome.nbSk6Z}, goog:chromeOptions: {debuggerAddress: localhost:37079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: d420525aeac415e6b16d7078637b5957]]>
+=======
+System info: host: 'DESKTOP-21NHCNS', ip: '192.168.2.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ISLAMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56cc5506dd996f64632bfa2b884e5203]]>
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to pay at arrival?}
   (Session info: chrome=87.0.4280.141): Are you sure you want to pay at arrival?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+<<<<<<< HEAD
 System info: host: 'islam-Inspiron-5570', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-36-generic', java.version: '11.0.9.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /tmp/.com.google.Chrome.nbSk6Z}, goog:chromeOptions: {debuggerAddress: localhost:37079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: d420525aeac415e6b16d7078637b5957
+=======
+System info: host: 'DESKTOP-21NHCNS', ip: '192.168.2.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ISLAMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56cc5506dd996f64632bfa2b884e5203
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -132,7 +171,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@12d1f1d4]" started-at="2021-01-13T20:03:51 EET" name="closeBrowser" finished-at="2021-01-13T20:03:52 EET" duration-ms="330" status="PASS">
+=======
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@ff23ae7]" started-at="2021-01-13T21:04:05 EET" name="closeBrowser" finished-at="2021-01-13T21:04:05 EET" duration-ms="1" status="PASS">
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

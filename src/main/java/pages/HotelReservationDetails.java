@@ -45,6 +45,7 @@ public class HotelReservationDetails extends PageBase{
 		scrollToBottom();
 		clickButton(confirmThisBooking);
 		clickButton(payOnArrival);
+<<<<<<< HEAD
 		//	Thread.sleep(10000);
 		//
 		//		WebDriverWait wait = new WebDriverWait(driver, 5);
@@ -54,6 +55,9 @@ public class HotelReservationDetails extends PageBase{
 		//		
 		//		driver.switchTo().alert().accept();
 
+=======
+		driver.switchTo().alert().accept();
+>>>>>>> 8e74f382316c5f3cd0a1f0698fecc0018005c317
 
 	}
 
