@@ -34,7 +34,7 @@ public class PageBase {
 	}
 
 	public void scrollToBottom() {
-		jse.executeScript("scrollBy(0,1000)");	
+		jse.executeScript("scrollBy(0,900)");	
 	}
 	public void scrollToUp() {
 		jse.executeScript("scrollBy(0,-1000)");	
