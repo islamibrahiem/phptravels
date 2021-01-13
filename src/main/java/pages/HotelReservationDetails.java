@@ -41,10 +41,8 @@ public class HotelReservationDetails extends PageBase{
 		scrollToBottom();
 		clickButton(confirmThisBooking);
 		clickButton(payOnArrival);
+		driver.switchTo().alert().accept();
 
-//		alert = driver.switchTo().alert();
-//		alert.accept();
-		
 	}
 
 }

@@ -57,7 +57,7 @@ public class MyProfile extends PageBase {
 			String cityTxt,
 			String stateTxt,
 			String zipCodeTxt,
-			String phoneTxt)
+			String phoneTxt) 
 	{
 		clearText(email);
 		setTextElementText(email, emailTxt);
@@ -65,6 +65,7 @@ public class MyProfile extends PageBase {
 		setTextElementText(confirmPassword, confirmPasswordTxt);
 		setTextElementText(address1, adress1Txt);
 		setTextElementText(address2, address2Txt);
+		scrollToBottom();
 		setTextElementText(state, stateTxt);
 		setTextElementText(city, cityTxt);
 		setTextElementText(zipCode, zipCodeTxt);
@@ -73,7 +74,6 @@ public class MyProfile extends PageBase {
 		countrieslist.get(0).click();
 		clearText(phone);
         setTextElementText(phone, phoneTxt);
-		scrollToBottom();
 		clickButton(submitBtn);
 		scrollToUp();
 
