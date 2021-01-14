@@ -28,10 +28,9 @@ public class HotelReservationDetails extends PageBase{
 	WebElement bookNow;
 	@FindBy(name = "logged")
 	WebElement confirmThisBooking;
-	@FindBy(css = "button.btn.btn-default.arrivalpay")
-	WebElement payOnArrival;
-	@FindBy(linkText = "OK")
-	WebElement Ok;
+	@FindBy(css = "button.btn.btn-primary")
+	WebElement payNow;
+	
 
 	public void reserveHotelWithMoreDetails() throws InterruptedException
 	{
@@ -44,9 +43,7 @@ public class HotelReservationDetails extends PageBase{
 		clickButton(bookNow);
 		scrollToBottom();
 		clickButton(confirmThisBooking);
-		//clickButton(payOnArrival);
-		//driver.switchTo().alert().accept();
-
+		clickButton(payNow);
 	}
 
 }
