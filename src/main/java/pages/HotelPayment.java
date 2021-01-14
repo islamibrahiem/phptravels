@@ -49,6 +49,7 @@ public class HotelPayment extends PageBase {
 		selectOptions = new Select(expiryYear);
 		selectOptions.selectByIndex(3);
 		setTextElementText(cvv, cvvTxt);
+		scrollToBottom();
 		clickButton(payNow);
 
 
