@@ -109,6 +109,8 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 				                   test_cardHolderLastnameTxt,
 				                   test_cardNumber,
 				                   test_cvv);
+		
+		myAccountPageObject.openHomePage();
 
 }
 
