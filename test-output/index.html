@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-phptravels_Suite" class="navigator-link ">
-                    <span>C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel.xml</span>
+                    <span>registeration_Login_EditProfile_ReserveHotel.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,31 +130,12 @@
                   <a name="test_inputResgistrationData">
                   </a> <!-- test_inputResgistrationData -->
                   <span class="method-name">test_inputResgistrationData</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to convert data to an object
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-21NHCNS&apos;, ip: &apos;192.168.2.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 2872, moz:profile: C:\Users\IslamIbrahimAlyMoh..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 733a722d-18f6-405d-9bd9-5092e2479266
-*** Element info: {Using=link text, value=Select Payment Method}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at pages.PageBase.clickButton(PageBase.java:24)
-	at pages.HotelPayment.paymentMethod(HotelPayment.java:42)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at pages.PageBase.scrollToBottom(PageBase.java:37)
+	at pages.HotelPayment.paymentMethod(HotelPayment.java:52)
 	at tests.TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData(TestRegisteration_Login_EditProfile_ReserveHotel.java:108)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -163,14 +144,14 @@ Session ID: 733a722d-18f6-405d-9bd9-5092e2479266
         </div> <!-- panel phptravels_Suite -->
         <div panel-name="test-xml-phptravels_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel.xml</span>
+            <span class="header-content">/home/islam/eclipse-workspace/phptravels/phptravelsWebsite/registeration_Login_EditProfile_ReserveHotel.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;phptravels Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.TestRegisteration_Login_EditProfile_ReserveHotel&quot;/&gt;
@@ -217,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_inputResgistrationData')
 data.setCell(0, 2, 'tests.TestRegisteration_Login_EditProfile_ReserveHotel')
-data.setCell(0, 3, 57269);
+data.setCell(0, 3, 61308);
 window.suiteTableData['phptravels_Suite']= { tableData: data, tableDiv: 'times-div-phptravels_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-phptravels_Suite">
               </div> <!-- times-div-phptravels_Suite -->
             </div> <!-- times-div -->
@@ -250,24 +231,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestRegisteration_Login_EditProfile_ReserveHotel</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">openURL(firefox)</span>
+                <span class="method-name">openURL(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_inputResgistrationData</span>
-                <span class="method-start">12399 ms</span>
+                <span class="method-start">13237 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">screenshotOnfailure([TestResult name=test_inputResgistrationData status=FAILURE method=TestRegisteration_Login_EditProfi...)</span>
-                <span class="method-start">69678 ms</span>
+                <span class="method-start">74548 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">71122 ms</span>
+                <span class="method-start">74773 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
