@@ -41,6 +41,7 @@ public class HotelPayment extends PageBase {
 
 		clickButton(selectPaymentMethodBtn);
 		clickButton(creditcard);
+		Thread.sleep(2000);
 		setTextElementText(cardHolderFirstname, cardHolderFirstnameTxt);
 		setTextElementText(cardHolderLastname, cardHolderLastnameTxt);
 		setTextElementText(cardNumber, cardNumberTxt);
@@ -49,7 +50,6 @@ public class HotelPayment extends PageBase {
 		selectOptions = new Select(expiryYear);
 		selectOptions.selectByIndex(3);
 		setTextElementText(cvv, cvvTxt);
-		scrollToBottom();
 		clickButton(payNow);
 
 

@@ -33,8 +33,9 @@ public class MyAccountPage extends PageBase {
 	public void logout () {
 		clickButton(logoutBtn);
 	}
-	public void openMyProfilePage()
+	public void openMyProfilePage() throws InterruptedException
 	{
+		Thread.sleep(2000);
 		clickButton(myprofileBtn);
 	}
 	public void openNewsLetterPage()
