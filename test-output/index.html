@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-phptravels_Suite" class="navigator-link ">
-                    <span>registeration_Login_EditProfile_ReserveHotel.xml</span>
+                    <span>C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,10 +130,21 @@
                   <a name="test_inputResgistrationData">
                   </a> <!-- test_inputResgistrationData -->
                   <span class="method-name">test_inputResgistrationData</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at pages.PageBase.scrollToBottom(PageBase.java:37)
-	at pages.HotelPayment.paymentMethod(HotelPayment.java:52)
-	at tests.TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData(TestRegisteration_Login_EditProfile_ReserveHotel.java:108)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=MY PROFILE
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-21NHCNS&apos;, ip: &apos;192.168.2.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:24)
+	at pages.MyAccountPage.openMyProfilePage(MyAccountPage.java:38)
+	at tests.TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData(TestRegisteration_Login_EditProfile_ReserveHotel.java:73)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -144,7 +155,7 @@
         </div> <!-- panel phptravels_Suite -->
         <div panel-name="test-xml-phptravels_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/islam/eclipse-workspace/phptravels/phptravelsWebsite/registeration_Login_EditProfile_ReserveHotel.xml</span>
+            <span class="header-content">C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -198,12 +209,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_inputResgistrationData')
 data.setCell(0, 2, 'tests.TestRegisteration_Login_EditProfile_ReserveHotel')
-data.setCell(0, 3, 61308);
+data.setCell(0, 3, 13056);
 window.suiteTableData['phptravels_Suite']= { tableData: data, tableDiv: 'times-div-phptravels_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-phptravels_Suite">
               </div> <!-- times-div-phptravels_Suite -->
             </div> <!-- times-div -->
@@ -238,15 +249,17 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_inputResgistrationData</span>
-                <span class="method-start">13237 ms</span>
+                <span class="method-start">17032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">screenshotOnfailure([TestResult name=test_inputResgistrationData status=FAILURE method=TestRegisteration_Login_EditProfi...)</span>
-                <span class="method-start">74548 ms</span>
+                <span class="method-start">30108 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">74773 ms</span>
+                <span class="method-start">30308 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
