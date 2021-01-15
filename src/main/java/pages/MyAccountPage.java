@@ -8,8 +8,6 @@ public class MyAccountPage extends PageBase {
 
 	public MyAccountPage(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
-
 	}
 
 	@FindBy(css = "i.bx.bx-user")

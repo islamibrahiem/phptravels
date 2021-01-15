@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import net.bytebuddy.asm.Advice.OffsetMapping.Target.AbstractReadOnlyAdapter;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.MyAccountPage;

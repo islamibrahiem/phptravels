@@ -8,7 +8,6 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.MyProfile;
-import pages.NewsLetter;
 import pages.RegistrationPage;
 
 public class TestMyAccount extends TestBase{
@@ -18,7 +17,7 @@ public class TestMyAccount extends TestBase{
 	LoginPage loginPageObject;
 	MyAccountPage myAccountPageObject;
 	MyProfile myprofilepageObject;
-	
+
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();

@@ -1,21 +1,16 @@
 package pages;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HotelReservationDetails extends PageBase{
 
 	public HotelReservationDetails(WebDriver driver) {
 		super(driver);
 		jse = (JavascriptExecutor) driver;
-
-		// TODO Auto-generated constructor stub
 	}
 
 	@FindBy(linkText = "FACILITIES")
@@ -30,8 +25,8 @@ public class HotelReservationDetails extends PageBase{
 	WebElement confirmThisBooking;
 	@FindBy(css = "button.btn.btn-primary")
 	WebElement payNow;
-	
-	
+
+
 
 	public void reserveHotelWithMoreDetails() throws InterruptedException
 	{

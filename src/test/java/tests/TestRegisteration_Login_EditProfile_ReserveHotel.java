@@ -15,7 +15,7 @@ import pages.NewsLetter;
 import pages.RegistrationPage;
 
 public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
-	
+
 	HomePage homePageObject ;
 	RegistrationPage registrationPageObject ;
 	LoginPage loginPageObject;
@@ -97,21 +97,21 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 		Thread.sleep(1000);
 
 		myAccountPageObject.openHomePage();
-		
+
 		hotelReservationObject = new HotelReservation(driver);
 		hotelReservationObject.reserveHotel();
-		
+
 		hotelReservationDetailsObject = new HotelReservationDetails(driver);
 		hotelReservationDetailsObject.reserveHotelWithMoreDetails();
-		
+
 		hotelPayment = new HotelPayment(driver);
 		hotelPayment.paymentMethod(test_cardHolderFirstnameTxt,
-				                   test_cardHolderLastnameTxt,
-				                   test_cardNumber,
-				                   test_cvv);
-		
+				test_cardHolderLastnameTxt,
+				test_cardNumber,
+				test_cvv);
+
 		myAccountPageObject.openHomePage();
 
-}
+	}
 
 }

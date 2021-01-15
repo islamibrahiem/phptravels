@@ -8,7 +8,6 @@ public class NewsLetter extends PageBase{
 
 	public NewsLetter(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 
 	@FindBy(css = "span.slider.round")

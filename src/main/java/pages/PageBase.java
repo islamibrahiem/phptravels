@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,8 +11,6 @@ public class PageBase {
 	protected WebDriver driver;
 	public JavascriptExecutor jse ;
 	public  Select selectOptions;
-	
-
 
 	public PageBase(WebDriver driver)
 	{
@@ -33,6 +30,9 @@ public class PageBase {
 		element.clear();
 	}
 
+	public void scrollToBottom100() {
+		jse.executeScript("scrollBy(0,100)");	
+	}
 	public void scrollToBottom() {
 		jse.executeScript("scrollBy(0,900)");	
 	}

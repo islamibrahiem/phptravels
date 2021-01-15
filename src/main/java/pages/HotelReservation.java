@@ -11,9 +11,7 @@ public class HotelReservation extends PageBase {
 
 	public HotelReservation(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 		jse = (JavascriptExecutor) driver;
-
 	}
 
 	@FindBy(css = "span.select2-chosen")

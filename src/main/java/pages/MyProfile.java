@@ -6,13 +6,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 public class MyProfile extends PageBase {
 
 	public MyProfile(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 		jse = (JavascriptExecutor) driver;
 	}
 
@@ -73,7 +71,7 @@ public class MyProfile extends PageBase {
 		setTextElementText(country_input, "Egypt");
 		countrieslist.get(0).click();
 		clearText(phone);
-        setTextElementText(phone, phoneTxt);
+		setTextElementText(phone, phoneTxt);
 		clickButton(submitBtn);
 		scrollToUp();
 

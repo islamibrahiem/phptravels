@@ -8,7 +8,6 @@ public class RegistrationPage extends PageBase {
 
 	public RegistrationPage(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 
 	@FindBy(name = "firstname")

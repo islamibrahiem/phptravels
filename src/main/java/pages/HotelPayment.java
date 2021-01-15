@@ -1,7 +1,7 @@
 package pages;
 
-import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +11,7 @@ public class HotelPayment extends PageBase {
 
 	public HotelPayment(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		jse = (JavascriptExecutor) driver;
 	}
 	@FindBy(linkText = "Select Payment Method")
 	WebElement selectPaymentMethodBtn; 
@@ -50,6 +50,7 @@ public class HotelPayment extends PageBase {
 		selectOptions = new Select(expiryYear);
 		selectOptions.selectByIndex(3);
 		setTextElementText(cvv, cvvTxt);
+		scrollToBottom100();
 		clickButton(payNow);
 
 

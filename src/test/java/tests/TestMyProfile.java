@@ -1,12 +1,9 @@
 package tests;
 
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
-
 import pages.HomePage;
-import pages.HotelReservation;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.MyProfile;
@@ -89,9 +86,9 @@ public class TestMyProfile extends TestBase{
 		Thread.sleep(1000);
 
 		myAccountPageObject.openHomePage();
-		
 
-		
+
+
 
 
 
