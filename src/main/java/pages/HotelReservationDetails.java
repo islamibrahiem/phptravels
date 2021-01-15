@@ -31,11 +31,12 @@ public class HotelReservationDetails extends PageBase{
 	@FindBy(css = "button.btn.btn-primary")
 	WebElement payNow;
 	
+	
 
 	public void reserveHotelWithMoreDetails() throws InterruptedException
 	{
 		clickButton(facilities);
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		clickButton(executiveSuite);
 		selectOptions = new Select(roomCount);
 		selectOptions.selectByVisibleText("2");
@@ -43,6 +44,7 @@ public class HotelReservationDetails extends PageBase{
 		clickButton(bookNow);
 		scrollToBottom();
 		clickButton(confirmThisBooking);
+		Thread.sleep(10000);
 		clickButton(payNow);
 	}
 
