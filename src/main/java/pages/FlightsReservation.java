@@ -17,8 +17,12 @@ public class FlightsReservation extends PageBase{
 	}
     @FindBy(linkText = "FLIGHTS")
     WebElement flightsBtn;
-	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[1]/div[2]/div/div/div/ul")
+	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[1]/div[2]/div/div/a/span")
 	WebElement bookingtype; 
+//	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[1]/div[2]/div/div/div/ul")
+//	List<WebElement> bookingtypeList;
+	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[1]/div[2]/div/div/div/ul/li[1]")
+	WebElement firstclass;
 	@FindBy(xpath = "//*[@id=\"s2id_location_from\"]/a/span[1]")
 	WebElement LHE;
 	@FindBy(xpath = "//*[@id=\"select2-drop\"]/div/input")
@@ -37,7 +41,7 @@ public class FlightsReservation extends PageBase{
 	WebElement adultIncreaseBtn;
 	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[3]/div[3]/div/div/div[2]/div/div[2]/div/span/button[1]")
 	WebElement childIncreaseBtn;
-	@FindBy(css = "button.btn-primary.btn.btn-block")
+	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[3]/div[4]/button")
 	WebElement searchBtn;
 
 	public void reserveFlight (String fromFieldTxt,
@@ -45,8 +49,8 @@ public class FlightsReservation extends PageBase{
 
 	{
 		clickButton(flightsBtn);
-//		selectOptions = new Select(bookingtype);
-//		selectOptions.selectByIndex(0);
+		clickButton(bookingtype);
+		clickButton(firstclass);
 		clickButton(LHE);
 		setTextElementText(fromField, fromFieldTxt);
 		Thread.sleep(2000);
@@ -56,15 +60,9 @@ public class FlightsReservation extends PageBase{
 		Thread.sleep(2000);
 		to_CitiesList.get(0).click();
 		jse.executeScript("document.getElementById('FlightsDateStart').value = '09/03/2021'");
-		Thread.sleep(2000);
-
 		clickButton(adultIncreaseBtn);
-		Thread.sleep(2000);
-
 		clickButton(childIncreaseBtn);
-		Thread.sleep(2000);
-
-		//clickButton(searchBtn);
+		clickButton(searchBtn);
 	}
 
 }
