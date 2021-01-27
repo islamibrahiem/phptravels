@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
+import pages.FlightsReservation;
 import pages.HomePage;
 import pages.HotelPayment;
 import pages.HotelReservation;
@@ -25,6 +26,7 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 	HotelReservation hotelReservationObject;
 	HotelReservationDetails hotelReservationDetailsObject;
 	HotelPayment hotelPayment;
+	FlightsReservation flightsReservationObject;
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -41,6 +43,8 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 	String test_cardHolderLastnameTxt = fakeData.name().lastName();
 	String test_cardNumber = fakeData.number().digits(16).toString();
 	String test_cvv = fakeData.number().digits(3).toString();
+	String test_FromCity = "Cairo";
+	String test_ToCity = "Rome";
 
 
 
@@ -111,6 +115,9 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 				test_cvv);
 
 		myAccountPageObject.openHomePage();
+		
+		flightsReservationObject = new FlightsReservation(driver);
+		flightsReservationObject.reserveFlight(test_FromCity, test_ToCity);
 
 	}
 
