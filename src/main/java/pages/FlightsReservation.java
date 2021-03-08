@@ -43,7 +43,10 @@ public class FlightsReservation extends PageBase{
 	WebElement childIncreaseBtn;
 	@FindBy(xpath = "//*[@id=\"flights\"]/div/div/form/div/div/div[3]/div[4]/button")
 	WebElement searchBtn;
-
+	@FindBy(xpath = "//*[@id=\"LIST\"]/li[1]/div/div[1]/div[2]/form/div[2]/div/button")
+	WebElement bookNowBtn;
+	@FindBy(css ="button.btn.btn-success.btn-lg.btn-block.completebook")
+    WebElement confirmThisBookingBtn;
 	public void reserveFlight (String fromFieldTxt,
 			String  ToFieldTxt ) throws InterruptedException
 
@@ -63,6 +66,9 @@ public class FlightsReservation extends PageBase{
 		clickButton(adultIncreaseBtn);
 		clickButton(childIncreaseBtn);
 		clickButton(searchBtn);
+		clickButton(bookNowBtn);
+		scrollToBottom();
+		clickButton(confirmThisBookingBtn);
 	}
 
 }
