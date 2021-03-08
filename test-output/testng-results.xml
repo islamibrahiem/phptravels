@@ -2,12 +2,21 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2021-03-08T17:35:56 EET" name="phptravels Suite" finished-at="2021-03-08T17:37:03 EET" duration-ms="66894">
     <groups>
     </groups>
     <test started-at="2021-03-08T17:35:56 EET" name="Regression Test" finished-at="2021-03-08T17:37:03 EET" duration-ms="66894">
       <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel">
         <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@481e91b6]" started-at="2021-03-08T17:35:45 EET" name="openURL" finished-at="2021-03-08T17:35:56 EET" duration-ms="10855" status="PASS">
+=======
+  <suite started-at="2021-03-08T11:33:19 EET" name="phptravels Suite" finished-at="2021-03-08T11:34:39 EET" duration-ms="79929">
+    <groups>
+    </groups>
+    <test started-at="2021-03-08T11:33:19 EET" name="Regression Test" finished-at="2021-03-08T11:34:39 EET" duration-ms="79929">
+      <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@51d387d3]" started-at="2021-03-08T11:33:07 EET" name="openURL" finished-at="2021-03-08T11:33:19 EET" duration-ms="11736" status="PASS">
+>>>>>>> 7b869333660f0e491dfe8760716a70724e30052b
           <params>
             <param index="0">
               <value>
@@ -18,6 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
+<<<<<<< HEAD
         <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@481e91b6]" started-at="2021-03-08T17:35:56 EET" name="test_inputResgistrationData" finished-at="2021-03-08T17:37:03 EET" duration-ms="66861" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -27,13 +37,28 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@481e91b6] output={null}]]]>
+=======
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@51d387d3]" started-at="2021-03-08T11:33:19 EET" name="test_inputResgistrationData" finished-at="2021-03-08T11:34:38 EET" duration-ms="79840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_inputResgistrationData -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@51d387d3]" started-at="2021-03-08T11:34:38 EET" name="screenshotOnfailure" finished-at="2021-03-08T11:34:38 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration_Login_EditProfile_ReserveHotel.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@51d387d3] output={null}]]]>
+>>>>>>> 7b869333660f0e491dfe8760716a70724e30052b
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@481e91b6]" started-at="2021-03-08T17:37:03 EET" name="closeBrowser" finished-at="2021-03-08T17:37:03 EET" duration-ms="0" status="PASS">
+=======
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration_Login_EditProfile_ReserveHotel@51d387d3]" started-at="2021-03-08T11:34:39 EET" name="closeBrowser" finished-at="2021-03-08T11:34:39 EET" duration-ms="0" status="PASS">
+>>>>>>> 7b869333660f0e491dfe8760716a70724e30052b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
