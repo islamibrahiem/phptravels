@@ -67,13 +67,9 @@ public class FlightsReservation extends PageBase{
 		clickButton(childIncreaseBtn);
 		clickButton(searchBtn);
 		clickButton(bookNowBtn);
-<<<<<<< HEAD
-		//scrollToBottom();
-		//clickButton(confirmThisBookingBtn);
-=======
 		scrollToBottom();
 		clickButton(confirmThisBookingBtn);
->>>>>>> 7b869333660f0e491dfe8760716a70724e30052b
+	
 	}
 
 }
