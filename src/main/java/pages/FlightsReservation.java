@@ -47,6 +47,9 @@ public class FlightsReservation extends PageBase{
 	WebElement bookNowBtn;
 	@FindBy(css ="button.btn.btn-success.btn-lg.btn-block.completebook")
     WebElement confirmThisBookingBtn;
+	@FindBy(css = "button.btn.btn-primary")
+	WebElement payNow;
+
 	public void reserveFlight (String fromFieldTxt,
 			String  ToFieldTxt ) throws InterruptedException
 
@@ -69,6 +72,8 @@ public class FlightsReservation extends PageBase{
 		clickButton(bookNowBtn);
 		scrollToBottom();
 		clickButton(confirmThisBookingBtn);
+		Thread.sleep(10000);
+		clickButton(payNow);
 	
 	}
 
