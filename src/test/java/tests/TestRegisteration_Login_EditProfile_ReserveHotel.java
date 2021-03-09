@@ -14,6 +14,7 @@ import pages.MyAccountPage;
 import pages.MyProfile;
 import pages.NewsLetter;
 import pages.RegistrationPage;
+import pages.ViewAllReservation;
 
 public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 
@@ -27,6 +28,7 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 	HotelReservationDetails hotelReservationDetailsObject;
 	HotelPayment hotelPayment;
 	FlightsReservation flightsReservationObject;
+	ViewAllReservation viewAllReservationObject; 
 
 	Faker fakeData = new Faker();
 	String test_firstNameTxt = fakeData.name().username();
@@ -124,6 +126,10 @@ public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
 				test_cardHolderLastnameTxt,
 				test_cardNumber,
 				test_cvv);
+		
+		viewAllReservationObject = new ViewAllReservation(driver);
+		viewAllReservationObject.clickOnMyAccountDropDownList();
+		viewAllReservationObject.openAccountPage();
 
 	}
 
