@@ -3,7 +3,8 @@
 	<parameter name="browser" value="chrome"></parameter>
 	<test name="Regression Test" preserve-order="true">
 		<classes>
-			<class name="tests.TestMyProfile" />
+			<class
+				name="tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

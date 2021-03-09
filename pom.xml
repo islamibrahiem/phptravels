@@ -65,7 +65,7 @@
 	</dependencies>
 	<profiles>
 		<profile>
-			<id>registerlogoutlogin</id>
+			<id>rTestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 				<property>
@@ -74,20 +74,7 @@
 				</property>
 			</activation>
 			<properties>
-				<testNGSuite>TestRegisterationtAndLoginPageUsingJavaFaker.xml</testNGSuite>
-			</properties>
-		</profile>
-		<profile>
-			<id>registeration_Login_EditProfile_ReserveHotel</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-				<property>
-					<name>environment</name>
-					<value>regression</value>
-				</property>
-			</activation>
-			<properties>
-				<testNGSuite>registeration_Login_EditProfile_ReserveHotel.xml</testNGSuite>
+				<testNGSuite>registeration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation.xml</testNGSuite>
 			</properties>
 		</profile>
 	</profiles>

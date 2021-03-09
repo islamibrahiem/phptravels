@@ -16,7 +16,7 @@ import pages.NewsLetter;
 import pages.RegistrationPage;
 import pages.ViewAllReservation;
 
-public class TestRegisteration_Login_EditProfile_ReserveHotel extends TestBase{
+public class TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation extends TestBase{
 
 	HomePage homePageObject ;
 	RegistrationPage registrationPageObject ;
