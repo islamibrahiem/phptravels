@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="14" total="22" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-10T11:44:16 EET" name="phptravels Suite" finished-at="2021-03-10T11:44:24 EET" duration-ms="7842">
+  <suite started-at="2021-03-10T13:29:21 EET" name="phptravels Suite" finished-at="2021-03-10T13:30:51 EET" duration-ms="89377">
     <groups>
     </groups>
-    <test started-at="2021-03-10T11:44:16 EET" name="Regression Test" finished-at="2021-03-10T11:44:24 EET" duration-ms="7842">
-      <class name="tests.TestLogout">
-        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestLogout@534180a2]" started-at="2021-03-10T11:44:21 EET" name="test_inputResgistrationData" finished-at="2021-03-10T11:44:24 EET" duration-ms="2311" status="PASS">
+    <test started-at="2021-03-10T13:29:21 EET" name="Regression Test" finished-at="2021-03-10T13:30:51 EET" duration-ms="89377">
+      <class name="tests.TestEditProfile">
+        <test-method signature="test_EditProfile()[pri:0, instance:tests.TestEditProfile@12d5c30e]" started-at="2021-03-10T13:29:29 EET" name="test_EditProfile" finished-at="2021-03-10T13:29:37 EET" duration-ms="7681" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_inputResgistrationData -->
-        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestLogout@534180a2]" started-at="2021-03-10T11:44:24 EET" name="screenshotOnfailure" finished-at="2021-03-10T11:44:24 EET" duration-ms="0" status="PASS">
+        </test-method> <!-- test_EditProfile -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestEditProfile@12d5c30e]" started-at="2021-03-10T13:29:37 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:29:37 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestLogout.test_inputResgistrationData()[pri:0, instance:tests.TestLogout@534180a2] output={null}]]]>
+                <![CDATA[[TestResult name=test_EditProfile status=SUCCESS method=TestEditProfile.test_EditProfile()[pri:0, instance:tests.TestEditProfile@12d5c30e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestEditProfile -->
+      <class name="tests.TestFlightReservation">
+        <test-method signature="test_FlightReservation()[pri:0, instance:tests.TestFlightReservation@52f57666]" started-at="2021-03-10T13:30:14 EET" name="test_FlightReservation" finished-at="2021-03-10T13:30:49 EET" duration-ms="34558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FlightReservation -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestFlightReservation@52f57666]" started-at="2021-03-10T13:30:49 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:30:49 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_FlightReservation status=SUCCESS method=TestFlightReservation.test_FlightReservation()[pri:0, instance:tests.TestFlightReservation@52f57666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestFlightReservation -->
+      <class name="tests.TestHotelReservation">
+        <test-method signature="test_hotelReservation()[pri:0, instance:tests.TestHotelReservation@b887730]" started-at="2021-03-10T13:29:37 EET" name="test_hotelReservation" finished-at="2021-03-10T13:30:07 EET" duration-ms="29385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_hotelReservation -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestHotelReservation@b887730]" started-at="2021-03-10T13:30:07 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:30:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_hotelReservation status=SUCCESS method=TestHotelReservation.test_hotelReservation()[pri:0, instance:tests.TestHotelReservation@b887730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestHotelReservation -->
+      <class name="tests.TestLogout">
+        <test-method signature="test_Logout()[pri:0, instance:tests.TestLogout@77bb48d5]" started-at="2021-03-10T13:29:26 EET" name="test_Logout" finished-at="2021-03-10T13:29:28 EET" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Logout -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestLogout@77bb48d5]" started-at="2021-03-10T13:29:28 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:29:28 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Logout status=SUCCESS method=TestLogout.test_Logout()[pri:0, instance:tests.TestLogout@77bb48d5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -24,7 +75,7 @@
         </test-method> <!-- screenshotOnfailure -->
       </class> <!-- tests.TestLogout -->
       <class name="tests.TestRegisteration">
-        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration@2370ac7a]" started-at="2021-03-10T11:44:03 EET" name="openURL" finished-at="2021-03-10T11:44:16 EET" duration-ms="12774" status="PASS">
+        <test-method is-config="true" signature="openURL(java.lang.String)[pri:0, instance:tests.TestRegisteration@3b545206]" started-at="2021-03-10T13:29:12 EET" name="openURL" finished-at="2021-03-10T13:29:21 EET" duration-ms="9275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,26 +86,112 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration@2370ac7a]" started-at="2021-03-10T11:44:16 EET" name="test_inputResgistrationData" finished-at="2021-03-10T11:44:21 EET" duration-ms="5465" status="PASS">
+        <test-method signature="test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration@3b545206]" started-at="2021-03-10T13:29:21 EET" name="test_inputResgistrationData" finished-at="2021-03-10T13:29:26 EET" duration-ms="4680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_inputResgistrationData -->
-        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestRegisteration@2370ac7a]" started-at="2021-03-10T11:44:21 EET" name="screenshotOnfailure" finished-at="2021-03-10T11:44:21 EET" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestRegisteration@3b545206]" started-at="2021-03-10T13:29:26 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:29:26 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration@2370ac7a] output={null}]]]>
+                <![CDATA[[TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration.test_inputResgistrationData()[pri:0, instance:tests.TestRegisteration@3b545206] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnfailure -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration@2370ac7a]" started-at="2021-03-10T11:44:24 EET" name="closeBrowser" finished-at="2021-03-10T11:44:24 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestRegisteration@3b545206]" started-at="2021-03-10T13:30:51 EET" name="closeBrowser" finished-at="2021-03-10T13:30:51 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.TestRegisteration -->
+      <class name="tests.TestLogin">
+        <test-method signature="test_Logout()[pri:0, instance:tests.TestLogin@181d8899]" started-at="2021-03-10T13:29:28 EET" name="test_Logout" finished-at="2021-03-10T13:29:29 EET" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Logout -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestLogin@181d8899]" started-at="2021-03-10T13:29:29 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:29:29 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Logout status=SUCCESS method=TestLogin.test_Logout()[pri:0, instance:tests.TestLogin@181d8899] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestLogin -->
+      <class name="tests.TestViewAllReservation">
+        <test-method signature="test_viewAllReservation()[pri:0, instance:tests.TestViewAllReservation@6e041285]" started-at="2021-03-10T13:30:49 EET" name="test_viewAllReservation" finished-at="2021-03-10T13:30:51 EET" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_viewAllReservation -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestViewAllReservation@6e041285]" started-at="2021-03-10T13:30:51 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:30:51 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_viewAllReservation status=SUCCESS method=TestViewAllReservation.test_viewAllReservation()[pri:0, instance:tests.TestViewAllReservation@6e041285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestViewAllReservation -->
+      <class name="tests.TestPayment">
+        <test-method signature="test_payment()[pri:0, instance:tests.TestPayment@26586b74]" started-at="2021-03-10T13:30:07 EET" name="test_payment" finished-at="2021-03-10T13:30:13 EET" duration-ms="6700" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at tests.TestPayment.test_payment(TestPayment.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_payment -->
+        <test-method is-config="true" signature="screenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.TestPayment@26586b74]" started-at="2021-03-10T13:30:13 EET" name="screenshotOnfailure" finished-at="2021-03-10T13:30:14 EET" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_payment status=FAILURE method=TestPayment.test_payment()[pri:0, instance:tests.TestPayment@26586b74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnfailure -->
+      </class> <!-- tests.TestPayment -->
     </test> <!-- Regression Test -->
   </suite> <!-- phptravels Suite -->
 </testng-results>

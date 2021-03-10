@@ -5,12 +5,15 @@
 		<classes>
 			<class name="tests.TestRegisteration"></class>
 			<class name="tests.TestLogout"></class>
-
-
+			<class name="tests.TestLogin"></class>
+			<class name="tests.TestEditProfile"></class>
+			<class name="tests.TestHotelReservation"></class>
+			<class name="tests.TestPayment"></class>
+			<class name="tests.TestFlightReservation"></class>
+			<class name="tests.TestPayment"></class>
+			<class name="tests.TestViewAllReservation"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
 
 
-<!-- <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation" 
-	/> -->

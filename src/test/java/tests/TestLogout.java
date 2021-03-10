@@ -10,7 +10,7 @@ public class TestLogout extends TestBase {
 
 	
 	@Test
-	public void test_inputResgistrationData () throws InterruptedException 
+	public void test_Logout () throws InterruptedException 
 	{
 		myAccountPageObject = new MyAccountPage(driver);
 		myAccountPageObject.clickOnMyAccountDropDownList();
