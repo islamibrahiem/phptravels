@@ -29,7 +29,7 @@ public class Payment extends PageBase {
 	WebElement expiryYear;
 	@FindBy(id="cvv")
 	WebElement cvv;
-	@FindBy(css ="button.btn.btn-success.btn-lg.paynowbtn.go-right")
+	@FindBy(xpath = "//*[@id=\"pay\"]/div/div[2]/div/div[3]/div[2]/button")
 	WebElement payNow;
 
 
@@ -38,7 +38,6 @@ public class Payment extends PageBase {
 			String cardNumberTxt,
 			String cvvTxt) throws InterruptedException
 	{
-
 		clickButton(selectPaymentMethodBtn);
 		clickButton(creditcard);
 		Thread.sleep(2000);
