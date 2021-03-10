@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-phptravels_Suite" class="navigator-link">
-              <span class="suite-name border-passed">phptravels Suite</span>
+              <span class="suite-name border-failed">phptravels Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-phptravels_Suite" class="navigator-link ">
-                    <span>registeration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation.xml</span>
+                    <span>C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-phptravels_Suite" class="hide-methods failed suite-phptravels_Suite"> (hide)</a> <!-- hide-methods failed suite-phptravels_Suite -->
+                      <a href="#" panel-name="suite-phptravels_Suite" class="show-methods failed suite-phptravels_Suite"> (show)</a> <!-- show-methods failed suite-phptravels_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-phptravels_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestPayment" class="method navigator-link" hash-for-method="test_payment">test_payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-phptravels_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +118,37 @@
                     <div class="method-list-content passed suite-phptravels_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation" class="method navigator-link" hash-for-method="test_inputResgistrationData">test_inputResgistrationData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestEditProfile" class="method navigator-link" hash-for-method="test_EditProfile">test_EditProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestFlightReservation" class="method navigator-link" hash-for-method="test_FlightReservation">test_FlightReservation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestLogin" class="method navigator-link" hash-for-method="test_Logout">test_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestLogout" class="method navigator-link" hash-for-method="test_Logout">test_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestHotelReservation" class="method navigator-link" hash-for-method="test_hotelReservation">test_hotelReservation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestRegisteration" class="method navigator-link" hash-for-method="test_inputResgistrationData">test_inputResgistrationData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-phptravels_Suite" title="tests.TestViewAllReservation" class="method navigator-link" hash-for-method="test_viewAllReservation">test_viewAllReservation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-phptravels_Suite -->
@@ -119,10 +163,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-phptravels_Suite" class="panel phptravels_Suite">
+          <div class="suite-phptravels_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.TestPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_payment">
+                  </a> <!-- test_payment -->
+                  <span class="method-name">test_payment</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.TestPayment.test_payment(TestPayment.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-failed -->
           <div class="suite-phptravels_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation</span>
+              <span class="class-name">tests.TestRegisteration</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -134,10 +198,100 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Logout">
+                  </a> <!-- test_Logout -->
+                  <span class="method-name">test_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestViewAllReservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_viewAllReservation">
+                  </a> <!-- test_viewAllReservation -->
+                  <span class="method-name">test_viewAllReservation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestEditProfile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_EditProfile">
+                  </a> <!-- test_EditProfile -->
+                  <span class="method-name">test_EditProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestFlightReservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_FlightReservation">
+                  </a> <!-- test_FlightReservation -->
+                  <span class="method-name">test_FlightReservation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Logout">
+                  </a> <!-- test_Logout -->
+                  <span class="method-name">test_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
+          <div class="suite-phptravels_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestHotelReservation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_hotelReservation">
+                  </a> <!-- test_hotelReservation -->
+                  <span class="method-name">test_hotelReservation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-phptravels_Suite-class-passed -->
         </div> <!-- panel phptravels_Suite -->
         <div panel-name="test-xml-phptravels_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/islam/eclipse-workspace/phptravels/phptravelsWebsite/registeration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation.xml</span>
+            <span class="header-content">C:\Users\IslamIbrahimAlyMoham\eclipse-workspace\phptravelsWebsite\phptravelsWebsite\registeration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +301,15 @@
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation&quot;/&gt;
+      &lt;class name=&quot;tests.TestRegisteration&quot;/&gt;
+      &lt;class name=&quot;tests.TestLogout&quot;/&gt;
+      &lt;class name=&quot;tests.TestLogin&quot;/&gt;
+      &lt;class name=&quot;tests.TestEditProfile&quot;/&gt;
+      &lt;class name=&quot;tests.TestHotelReservation&quot;/&gt;
+      &lt;class name=&quot;tests.TestPayment&quot;/&gt;
+      &lt;class name=&quot;tests.TestFlightReservation&quot;/&gt;
+      &lt;class name=&quot;tests.TestPayment&quot;/&gt;
+      &lt;class name=&quot;tests.TestViewAllReservation&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression Test --&gt;
 &lt;/suite&gt; &lt;!-- phptravels Suite --&gt;
@@ -161,7 +323,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression Test (1 class)</span>
+                <span class="test-name">Regression Test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,11 +349,45 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(8);
 data.setCell(0, 0, 0)
+<<<<<<< HEAD
 data.setCell(0, 1, 'test_inputResgistrationData')
 data.setCell(0, 2, 'tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation')
 data.setCell(0, 3, 81461);
+=======
+data.setCell(0, 1, 'test_FlightReservation')
+data.setCell(0, 2, 'tests.TestFlightReservation')
+data.setCell(0, 3, 34558);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_hotelReservation')
+data.setCell(1, 2, 'tests.TestHotelReservation')
+data.setCell(1, 3, 29385);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_EditProfile')
+data.setCell(2, 2, 'tests.TestEditProfile')
+data.setCell(2, 3, 7681);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_payment')
+data.setCell(3, 2, 'tests.TestPayment')
+data.setCell(3, 3, 6700);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_inputResgistrationData')
+data.setCell(4, 2, 'tests.TestRegisteration')
+data.setCell(4, 3, 4680);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_viewAllReservation')
+data.setCell(5, 2, 'tests.TestViewAllReservation')
+data.setCell(5, 3, 2129);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_Logout')
+data.setCell(6, 2, 'tests.TestLogout')
+data.setCell(6, 3, 1878);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_Logout')
+data.setCell(7, 2, 'tests.TestLogin')
+data.setCell(7, 3, 1453);
+>>>>>>> a36d5a575e4391d189d2b5820912be82f16e660c
 window.suiteTableData['phptravels_Suite']= { tableData: data, tableDiv: 'times-div-phptravels_Suite'}
 return data;
 }
@@ -211,9 +407,72 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-phptravels_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">14 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestPayment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestViewAllReservation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestEditProfile</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestFlightReservation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestLogout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.TestHotelReservation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openURL</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-phptravels_Suite" class="panel">
@@ -222,22 +481,116 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.TestRegisteration_Login_EditProfile_ReserveHotel_ReserveFlight_ViewAllReservation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.TestRegisteration</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">openURL(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">test_inputResgistrationData</span>
+<<<<<<< HEAD
                 <span class="method-start">11049 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotOnfailure([TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration_Login_EditProfi...)</span>
                 <span class="method-start">92514 ms</span>
+=======
+                <span class="method-start">9312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_inputResgistrationData status=SUCCESS method=TestRegisteration.test_inputResgi...)</span>
+                <span class="method-start">13997 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestLogout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Logout</span>
+                <span class="method-start">14004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_Logout status=SUCCESS method=TestLogout.test_Logout()[pri:0, instance:tests.Te...)</span>
+                <span class="method-start">15883 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Logout</span>
+                <span class="method-start">15884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_Logout status=SUCCESS method=TestLogin.test_Logout()[pri:0, instance:tests.Tes...)</span>
+                <span class="method-start">17338 ms</span>
+>>>>>>> a36d5a575e4391d189d2b5820912be82f16e660c
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestEditProfile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_EditProfile</span>
+                <span class="method-start">17339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_EditProfile status=SUCCESS method=TestEditProfile.test_EditProfile()[pri:0, in...)</span>
+                <span class="method-start">25024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestHotelReservation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_hotelReservation</span>
+                <span class="method-start">25027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_hotelReservation status=SUCCESS method=TestHotelReservation.test_hotelReservat...)</span>
+                <span class="method-start">54414 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestPayment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_payment</span>
+                <span class="method-start">54415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_payment status=FAILURE method=TestPayment.test_payment()[pri:0, instance:tests...)</span>
+                <span class="method-start">61118 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestFlightReservation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_FlightReservation</span>
+                <span class="method-start">61954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_FlightReservation status=SUCCESS method=TestFlightReservation.test_FlightReser...)</span>
+                <span class="method-start">96514 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestViewAllReservation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_viewAllReservation</span>
+                <span class="method-start">96516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnfailure([TestResult name=test_viewAllReservation status=SUCCESS method=TestViewAllReservation.test_viewAllRe...)</span>
+                <span class="method-start">98651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestRegisteration</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
+<<<<<<< HEAD
                 <span class="method-start">92535 ms</span>
+=======
+                <span class="method-start">98697 ms</span>
+>>>>>>> a36d5a575e4391d189d2b5820912be82f16e660c
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -4,14 +4,14 @@
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Regression Test(failed)">
     <classes>
-      <class name="tests.TestRegisteration_Login_EditProfile_ReserveHotel">
+      <class name="tests.TestPayment">
         <methods>
           <include name="screenshotOnfailure"/>
           <include name="openURL"/>
           <include name="closeBrowser"/>
-          <include name="test_inputResgistrationData"/>
+          <include name="test_payment"/>
         </methods>
-      </class> <!-- tests.TestRegisteration_Login_EditProfile_ReserveHotel -->
+      </class> <!-- tests.TestPayment -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [phptravels Suite] -->
