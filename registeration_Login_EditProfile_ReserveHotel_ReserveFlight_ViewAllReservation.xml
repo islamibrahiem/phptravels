@@ -9,9 +9,10 @@
 			<class name="tests.TestEditProfile"></class>
 			<class name="tests.TestHotelReservation"></class>
 			<class name="tests.TestPayment"></class>
-			<class name="tests.TestFlightReservation"></class>
-			<class name="tests.TestPayment"></class>
-			<class name="tests.TestViewAllReservation"></class>
+		<!--	<class name="tests.TestFlightReservation"></class> -->
+		<!--	<class name="tests.TestPayment"></class>  -->
+			<class name="tests.TestViewAllReservation">
+		</class>   
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

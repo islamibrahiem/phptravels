@@ -12,54 +12,6 @@
           <include name="test_payment"/>
         </methods>
       </class> <!-- tests.TestPayment -->
-      <class name="tests.TestViewAllReservation">
-        <methods>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-          <include name="test_viewAllReservation"/>
-        </methods>
-      </class> <!-- tests.TestViewAllReservation -->
-      <class name="tests.TestHotelReservation">
-        <methods>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-          <include name="test_hotelReservation"/>
-        </methods>
-      </class> <!-- tests.TestHotelReservation -->
-      <class name="tests.TestLogin">
-        <methods>
-          <include name="test_Logout"/>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.TestLogin -->
-      <class name="tests.TestLogout">
-        <methods>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-          <include name="test_Logout"/>
-        </methods>
-      </class> <!-- tests.TestLogout -->
-      <class name="tests.TestEditProfile">
-        <methods>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-          <include name="test_EditProfile"/>
-        </methods>
-      </class> <!-- tests.TestEditProfile -->
-      <class name="tests.TestFlightReservation">
-        <methods>
-          <include name="screenshotOnfailure"/>
-          <include name="openURL"/>
-          <include name="closeBrowser"/>
-          <include name="test_FlightReservation"/>
-        </methods>
-      </class> <!-- tests.TestFlightReservation -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [phptravels Suite] -->
